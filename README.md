@@ -1,2 +1,2 @@
 # School_Project
-School_Project 1
+Alle Schuldateien für das Fach SUD.
