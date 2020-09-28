@@ -1,55 +1,23 @@
 package main;
 
-import java.util.Scanner;
-
 public class LS02_Bustarif {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		String zahlS = "";
-		System.out.println("Bitte Zahl zwischen 0 und 10 eingeben: ");
-		int zahl = scanner.nextInt();
-		switch(zahl) {
-		case 0:
-			zahlS = "Null";
-			break;
-		case 1:
-			zahlS = "Eins";
-			break;
-		case 2:
-			zahlS = "Zwei";
-			break;
-		case 3:
-			zahlS = "Drei";
-			break;
-		case 4:
-			zahlS = "Vier";
-			break;
-		case 5:
-			zahlS = "Fünf";
-			break;
-		case 6:
-			zahlS = "Sechs";
-			break;
-		case 7:
-			zahlS = "Sieben";
-			break;
-		case 8:
-			zahlS = "Acht";
-			break;
-		case 9:
-			zahlS = "Neun";
-			break;
-		case 10:
-			zahlS = "Zehn";
-			break;
-		default:
-			System.out.println("Programm beendet!");
-			scanner.close();
-			System.exit(0);
+		int kilometer = 1000;
+		double kosten = 0;
+		if(kilometer < 20) {
+		kosten = kilometer * 0.28;
+		}else if(kilometer < 50) {
+			kosten = 20 * 0.28;
+			kilometer -= 20;
+			kosten += kilometer * 0.25;
+		}else {
+			kosten = 20 * 0.28;
+			kilometer -= 20;
+			kosten += 30 * 0.25;
+			kilometer -= 30;
+			kosten += kilometer * 0.20;
 		}
-		System.out.printf("Eingabe: %d \nAusgabe: %s", zahl, zahlS);
-		scanner.close();
+		System.out.printf("Ihre Kosten für die Fahrt sind: %.2f",kosten);
 	}
-
 }
