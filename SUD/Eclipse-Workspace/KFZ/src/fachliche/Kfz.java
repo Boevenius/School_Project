@@ -27,10 +27,10 @@ public class Kfz {
 	public void setGewicht(int gewicht) throws InputMismatchException {
 		if (gewicht < 60) {
 			throw new InputMismatchException(
-					"ungültiges Gewicht eingegeben, das Gewicht darf nicht kleiner als 60 kg sein");
+					"ungï¿½ltiges Gewicht eingegeben, das Gewicht darf nicht kleiner als 60 kg sein");
 		} else if (gewicht > 10000) {
 			throw new InputMismatchException(
-					"ungültiges Gewicht eingegeben, das Gewicht darf nicht groesser als 10000 kg sein");
+					"ungï¿½ltiges Gewicht eingegeben, das Gewicht darf nicht groesser als 10000 kg sein");
 		} else {
 			this.gewicht = gewicht;
 		}
@@ -54,7 +54,7 @@ public class Kfz {
 		String erlaubt = StringManipulator.entferneSonderzeichen(marke);
 
 		if (erlaubt.length() < 2) {
-			throw new InputMismatchException("Keine gültige Marke eingegeben, bitte noch einmal versuchen.");
+			throw new InputMismatchException("Keine gï¿½ltige Marke eingegeben, bitte noch einmal versuchen.");
 		} else {
 			this.marke = marke;
 		}
@@ -77,7 +77,7 @@ public class Kfz {
 		String erlaubt = StringManipulator.entferneSonderzeichen(modelle);
 
 		if (erlaubt.length() < 5) {
-			throw new InputMismatchException("Keine gültiges Modell eingegeben, bitte noch einmal versuchen.");
+			throw new InputMismatchException("Keine gï¿½ltiges Modell eingegeben, bitte noch einmal versuchen.");
 		} else {
 			this.modelle = modelle;
 		}
@@ -101,10 +101,10 @@ public class Kfz {
 
 		if (breite < 991) {
 			throw new InputMismatchException(
-					"ungültige Breite eingegeben, die Breite darf nicht kleiner als 991 mm sein");
+					"ungï¿½ltige Breite eingegeben, die Breite darf nicht kleiner als 991 mm sein");
 		} else if (breite > 2191) {
 			throw new InputMismatchException(
-					"ungültige Breite eingegeben, die Breite darf nicht groesser als 2191 mm sein");
+					"ungï¿½ltige Breite eingegeben, die Breite darf nicht groesser als 2191 mm sein");
 		} else {
 			this.breite = breite;
 		}
@@ -126,10 +126,10 @@ public class Kfz {
 	public void setLaenge(int laenge) {
 		if (breite < 1321) {
 			throw new InputMismatchException(
-					"ungültige Laenge eingegeben, die Breite darf nicht kleiner als 1321 mm sein");
+					"ungï¿½ltige Laenge eingegeben, die Breite darf nicht kleiner als 1321 mm sein");
 		} else if (breite > 6092) {
 			throw new InputMismatchException(
-					"ungültige Laenge eingegeben, die Breite darf nicht groesser als 6092 mm sein");
+					"ungï¿½ltige Laenge eingegeben, die Breite darf nicht groesser als 6092 mm sein");
 		} else {
 			this.laenge = laenge;
 		}
@@ -151,10 +151,10 @@ public class Kfz {
 	public void setHoehe(int hoehe) {
 		if (breite < 1003) {
 			throw new InputMismatchException(
-					"ungültige Hoehe eingegeben, die Hoehe darf nicht kleiner als 1003 mm sein");
+					"ungï¿½ltige Hoehe eingegeben, die Hoehe darf nicht kleiner als 1003 mm sein");
 		} else if (breite > 2006) {
 			throw new InputMismatchException(
-					"ungültige Hoehe eingegeben, die Hoehe darf nicht groesser als 2006 mm sein");
+					"ungï¿½ltige Hoehe eingegeben, die Hoehe darf nicht groesser als 2006 mm sein");
 		} else {
 			this.hoehe = hoehe;
 		}
@@ -178,7 +178,7 @@ public class Kfz {
 		String erlaubt = StringManipulator.entferneSonderzeichen(modelle);
 
 		if (erlaubt.length() < 1) {
-			throw new InputMismatchException("Keine gültigen Namen eingegeben, bitte noch einmal versuchen.");
+			throw new InputMismatchException("Keine gï¿½ltigen Namen eingegeben, bitte noch einmal versuchen.");
 		} else {
 			this.name = name;
 		}
