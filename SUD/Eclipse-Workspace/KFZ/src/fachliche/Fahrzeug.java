@@ -11,6 +11,8 @@ public class Fahrzeug {
 	private double aktuelleGeschwindigkeit = 0.0;
 	private final double MAXGESCHWINDIGKEIT;
 	private double anschaffungsKosten;
+	private static int ids = 0;
+	private int id;
 
 	public Fahrzeug(int sitze, double anschaffungsKosten, double MAXGESCHWINDIGKEIT, double MAXTANKGROESSE) {
 		super();
@@ -34,16 +36,19 @@ public class Fahrzeug {
 		} else {
 			this.MAXTANKGROESSE = MAXTANKGROESSE;
 		}
+		id = ids++;
 	}
 
 	public int getSitze() {
 		return sitze;
 	}
 
-	public void setSitze(int sitze) {
+	public void setSitze(int sitze)  throws InputMismatchException{
 		if (sitze < 1) {
 			throw new InputMismatchException("Es muss mindestens ein Sitz vorhanden sein!");
-		} else {
+		} else if(aktuellePersonen != 0){
+			throw new InputMismatchException("Es müssen zuerst alle Personen aussteigen!");
+		}else {
 			this.sitze = sitze;
 		}
 	}
@@ -52,7 +57,7 @@ public class Fahrzeug {
 		return anschaffungsKosten;
 	}
 
-	public void setAnschaffungsKosten(double anschaffungsKosten) {
+	public void setAnschaffungsKosten(double anschaffungsKosten) throws InputMismatchException{
 		if (anschaffungsKosten < 1.0) {
 			throw new InputMismatchException("Der minimale Kaufpreis ist 1€");
 		} else {
@@ -90,11 +95,15 @@ public class Fahrzeug {
 		}
 	}
 
-	public void beschleunigen(double beschleunigung) {
+	public void beschleunigen(double beschleunigung) throws InputMismatchException{
+		if((tankinhalt - (beschleunigung/10.0)) >= 0) {
 		if (beschleunigung + aktuelleGeschwindigkeit >= MAXGESCHWINDIGKEIT) {
 			aktuelleGeschwindigkeit = MAXGESCHWINDIGKEIT;
 		} else {
 			aktuelleGeschwindigkeit += beschleunigung;
+		}
+		}else {
+			throw new InputMismatchException("Nicht genug sprit vorhanden");
 		}
 	}
 
@@ -106,15 +115,23 @@ public class Fahrzeug {
 		}
 	}
 
-	public void einsteigen() {
+	public void einsteigen() throws Exception{
 		if (aktuellePersonen < sitze) {
 			this.aktuellePersonen++;
+		}else {
+			throw new Exception("Auto ist schon voll");
 		}
 	}
 	
-	public void aussteigen() {
+	public void aussteigen() throws Exception{
 		if(aktuellePersonen > 0) {
 			aktuellePersonen--;
+		}else {
+			throw new Exception("Keine Personen im Auto");
 		}
+	}
+	
+	public int getId() {
+		return id;
 	}
 }
