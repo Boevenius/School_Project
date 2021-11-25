@@ -12,14 +12,17 @@ public class Datum {
 	public int alsTage() {
 		int temp = 0;
 		temp = (jahr - 1) * 365;
-		for (int i = 1; i < jahr; i++) {
+		/*for (int i = 1; i < jahr; i++) {
 			if (i % 4 == 0 && i % 100 != 0) {
 				temp++;
 			}
 			if (i % 400 == 0) {
 				temp++;
 			}
-		}
+		}*/
+		temp += (jahr - 1) / 4;
+		temp -= (jahr - 1) / 100;
+		temp += (jahr - 1) / 400;
 
 		for (int i = 1; i < monat; i++) {
 			switch (i) {

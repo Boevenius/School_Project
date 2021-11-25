@@ -20,25 +20,21 @@ public class TestDatum {
 	}
 	
 	public void datumFuntzt() {
-		DatumThread thread1 = new DatumThread(1,10000);
-		//DatumThread thread2 = new DatumThread(2500,5000);
-		//DatumThread thread3 = new DatumThread(5000,7500);
-		//DatumThread thread4 = new DatumThread(7500,10000);
+		DatumThread thread1 = new DatumThread(1,2500);
+		DatumThread thread2 = new DatumThread(2500,5000);
+		DatumThread thread3 = new DatumThread(5000,7500);
+		DatumThread thread4 = new DatumThread(7500,10000);
 		thread1.start();
-		//thread2.start();
-		//thread3.start();
-		//thread4.start();
-		while(thread1.isAlive() 
-				//|| thread2.isAlive() || thread3.isAlive() || thread4.isAlive()
-				) {
+		thread2.start();
+		thread3.start();
+		thread4.start();
+		while(thread1.isAlive() || thread2.isAlive() || thread3.isAlive() || thread4.isAlive()) {
 			try {
 				Thread.sleep(1);
 			} catch (InterruptedException e) {
 			}
 		}
-		if(!thread1.getFunktioniert() 
-				//|| !thread2.getFunktioniert() || !thread3.getFunktioniert() ||!thread4.getFunktioniert()
-				) {
+		if(!thread1.getFunktioniert() || !thread2.getFunktioniert() || !thread3.getFunktioniert() ||!thread4.getFunktioniert()) {
 			System.out.println("Funktioniert nicht...");
 		}else {
 			System.out.println("Funktioniert!");
@@ -75,7 +71,7 @@ public class TestDatum {
 						datum.setTag(a);
 						zahl1 = zahl2;
 						zahl2 = datum.alsTage();
-						System.out.println(a + "." + b + "." + c + " = " + zahl2);
+						//System.out.println(a + "." + b + "." + c + " = " + zahl2);
 						if(zahl2 - 1 != zahl1) {
 							funktioniert = false;
 							Thread.currentThread().stop();
