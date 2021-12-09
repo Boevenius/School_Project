@@ -1,0 +1,26 @@
+Yawcam - License
+ииииииииииииииии
+Yawcam is freeware and may be distributed in unmodified form, but you may not sell the program or remove any copyright information from it.
+
+Yawcam can be used for free both commercially and non-commercially.
+
+It is not allowed to build a webcam community around Yawcam (and the online announcement function) without a written permission.
+
+The software is provided "as it is" without warranty of any kind. You use Yawcam at your own risk, and support for Yawcam is not guaranteed.
+
+The software is available for download at www.yawcam.com
+The most updated and valid license can be found at www.yawcam.com/help/help_lic.php
+
+Copyright й 2003-2016 by Magnus Lundvall.
+
+
+
+Oracle and Java are registered trademarks of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.
+
+Yawcam uses DSJ, a DirectShow Java wrapper, created by Humatic www.humatic.de/htools/dsj.htm
+
+To load 32bit windows icons Yawcam uses AC.lib-ICO, created by Christian Treber http://www.acproductions.de/commercial/aclibico/
+
+Parts of the code in Yawcam that calculate md5 digests of passwords is written by Harry Mantakos. You find the source here: http://www.cs.umd.edu/~harry/jotp/
+
+Yawcam is based in part on the work of the Independent JPEG Group.

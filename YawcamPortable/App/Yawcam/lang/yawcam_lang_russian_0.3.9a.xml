@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<!--  
+*	Language file for yawcam
+*	More language files can be found at: www.yawcam.com	
+*
+*	Translation instructions:	
+*	1)	Letters behind a '@'
+*		( for example @x ) are variables and will be replaced with 
+*		something else in the real program.
+*
+*	2)	The option 'Language' in the help menu must also 
+*		contain the English word "language" in the translation.
+*		So if the translation of "language" is "foo", then
+*		the label in the menu should be: "Foo/Language..."
+*
+*	3)	In the <lang_version> section: 
+*		"LV1" is the version number of yawcam that this 
+*			language file is written for. (Should be something 
+*			like 0.1)
+*		"LV2" is the version letter of the language file. Every new
+*			translation for a new version of yawcam should have the 
+*			version letter 'a'. When updates to the language file are 
+*			made change to the following letter. (a to b, b to c, and so on)
+*
+*	4)	In the <translator> section, please fill in your name and e-mail.
+*       If you are updating a translation, keep the old name and add your name behind a ;
+*       It will look somehting like this: "trans1 (trans1@email.com);trans2 (trans2@email.com)"
+*
+*	5)	An <item id="  " ... > tag must always be on one row! Never insert 
+*		a line break, even if the text is really long.
+*
+*	6)	Translations can be mailed to translations@yawcam.com
+*			
+*	7)	Have fun! And Thanks for contributing! //Magnus Lundvall
+*
+--> 
+
+<yawcam_lang>
+	<misc>
+		<language>
+			<!-- Change to the current language -->
+			<item id="|.L1|" type="string" value="�������" />
+		</language>
+		<translator>
+			<!-- Also include e-mail -->
+			<item id="|.T1|" type="string" value="������� ���� (ihudiakov@security.kg)" /> <!-- Replace with your own name and e-mail -->
+		</translator>
+		<lang_version>
+			<!-- The version number should follow the standard described above! -->
+			<item id="|.LV1|" type="string" value="0.3.9" /> <!-- Yawcam version -->	
+			<item id="|.LV2|" type="string" value="a" /> <!-- Language file version -->
+		</lang_version>
+	</misc>
+	<GUI>
+		<Menu>
+			<File>
+				<item id="|.MF0|" type="string" value="����" />
+				<item id="|.MF1|" type="string" value="�������� ����� � ����" />
+				<item id="|.MF2|" type="string" value="�������� ����� �� ������ FTP" />
+				<item id="|.MF3|" type="string" value="�������� ����� �� HTTP" />
+				<item id="|.MF4|" type="string" value="�������� ��������� �����" />
+				<item id="|.MF5|" type="string" value="�����" />
+				<item id="|.MF6|" type="string" value="��������������� ����������� � �����..." />
+				<item id="|.MF7|" type="string" value="�������� �������� ��������" />
+			</File>
+			<View>
+				<item id="|.MV0|" type="string" value="���" />
+				<item id="|.MV1|" type="string" value="������� ����������� ������" />
+				<item id="|.MV2|" type="string" value="������� �������" />
+				<item id="|.MV3|" type="string" value="�������� ��� �������" />
+				<item id="|.MV4|" type="string" value="������" />
+				<item id="|.MV5|" type="string" value="������ ������ ����" />
+				<item id="|.MV6|" type="string" value="�������� �����" />
+				<item id="|.MV7|" type="string" value="�������� ����� ��� �������" />
+				<item id="|.MV8|" type="string" value="�������� �������� �����" />
+			</View>
+			<Settings>
+				<item id="|.MS0|" type="string" value="���������" />
+				<item id="|.MS1|" type="string" value="����� ���-������..." />
+				<item id="|.MS2|" type="string" value="�������� ���������..." />
+				<item id="|.MS3|" type="string" value="����������" />
+				<item id="|.MS4|" type="string" value="���" />
+			</Settings>
+			<Window>
+				<item id="|.MW0|" type="string" value="����" />
+				<item id="|.MW1|" type="string" value="��������������� ��������" />
+				<item id="|.MW2|" type="string" value="������" />
+				<item id="|.MW3|" type="string" value="�������" />
+				<item id="|.MW4|" type="string" value="����������" />
+				<item id="|.MW5|" type="string" value="������������ �����������" />
+				<item id="|.MW6|" type="string" value="�������� ��������" />
+			</Window>
+			<Help>
+				<item id="|.MH0|" type="string" value="������" />
+				<item id="|.MH1|" type="string" value="����������..." />
+				<item id="|.MH2|" type="string" value="�������/Language..." /> <!-- Also add the enlish word language, se instructions above! -->				
+				<item id="|.MH3|" type="string" value="�������� ��������" />
+				<item id="|.MH4|" type="string" value="� ���������..." />
+				<item id="|.MH5|" type="string" value="������������ $$$" />
+				<item id="|.MH6|" type="string" value="� � ����?" />
+				<item id="|.MH7|" type="string" value="����� � ���� URL?" />
+				<item id="|.MH8|" type="string" value="��������� ������?" />
+			</Help>
+		</Menu>
+		<Main_Window>
+			<item id="|.MAINW0|" type="string" value="����������� ������" /> <!-- name on the control panel tab -->
+			<item id="|.MAINW1|" type="string" value="�������" /> <!-- name on the console tab -->
+			<item id="|.MAINW2|" type="string" value="����" /> <!-- File-output label -->
+			<item id="|.MAINW3|" type="string" value="FTP" /> <!-- Ftp-output label -->
+			<item id="|.MAINW4|" type="string" value="HTTP" /> <!-- Http-output label -->
+			<item id="|.MAINW5|" type="string" value="�����" /> <!-- Stream-output label -->
+			<item id="|.MAINW6|" type="string" value="��������" /> <!-- button text -->
+			<item id="|.MAINW7|" type="string" value="���������" /> <!-- button text -->
+			<item id="|.MAINW8|" type="string" value="�������� ��������" /> <!-- Motion detection label -->
+		</Main_Window>
+		<Detect_Dialog>
+			<item id="|.DETD0|" type="string" value="���������..." /> <!-- heading for dialog -->
+			<item id="|.DETD1|" type="string" value="��������� �������� ���� @x, ����� ������� @y." /> <!-- message -->
+			<item id="|.DETD2|" type="string" value="������" /> <!-- button label -->
+			<item id="|.DETD3|" type="string" value="�� ����� ���-������ ����� ������������� ������." />
+			<item id="|.DETD4|" type="string" value="���������� � ������ ������?" />
+		</Detect_Dialog>
+		<Preview_Window>
+			<item id="|.PREVW0|" type="string" value="��������������� ��������" /> <!-- heading for window -->
+		</Preview_Window>
+		<Capture_Window>
+			<item id="|.CAPTW0|" type="string" value="���� �������" /> <!-- heading for window -->
+			<item id="|.CAPTW1|" type="string" value="������!" /> <!-- button label -->
+			<Image_Win>
+				<item id="|.IMGW0|" type="string" value="�����������" /> <!-- heading for window -->
+				<item id="|.IMGW1|" type="string" value="��������..." /> <!-- label: save-button -->
+				<item id="|.IMGW2|" type="string" value="�������" /> <!-- label: close-button -->
+				<item id="|.IMGW3|" type="string" value="��������� ����..." /> <!-- heading for save-file-dialog -->
+			</Image_Win>
+		</Capture_Window>
+		<Settings>
+			<item id="|.SHEAD0|" type="string" value="���������" /> <!-- heading for settings window -->
+			<item id="|.SBTN0|" type="string" value="������" /> <!-- ok button-label -->
+			<item id="|.SBTN1|" type="string" value="������" /> <!-- cancel button-label -->
+			<item id="|.SBTN2|" type="string" value="��������" /> <!-- add button-label -->
+			<item id="|.SBTN3|" type="string" value="�������" /> <!-- delete button-label -->
+			<item id="|.SBTN4|" type="string" value="��������" /> <!-- clear button-label -->
+			<item id="|.SCAT0|" type="string" value="���������:" /> <!-- category-label -->
+			<Language>
+				<item id="|.SLANG0|" type="string" value="����" /> <!-- name in menu and heading for panel -->
+				<item id="|.SLANG1|" type="string" value="������� ����:" /> 
+				<item id="|.SLANG2|" type="string" value="��������..." /> <!-- button label -->
+				<item id="|.SLANG3|" type="string" value="��������: ���� ��������� ����� ������� ������ @x" /> <!-- info text -->
+				<item id="|.SLANG4|" type="string" value="�������� �������� ����..." /> <!-- choose file dialog heading -->
+			</Language>
+			<Camera>
+				<item id="|.SCAM0|" type="string" value="������" />  <!-- name in menu and heading for panel -->
+				<item id="|.SCAM1|" type="string" value="�������� ������:" /> 
+				<item id="|.SCAM2|" type="string" value="�������� ������ �����:" /> 
+				<item id="|.SCAM3|" type="string" value="��������: ������ ������������� ����� �������� �� ������ ����������� ��� ���� ����� ������." /> 
+			</Camera>
+			<Connection>
+				<item id="|.SCON0|" type="string" value="����������" />  <!-- name in menu and heading for panel -->
+				<item id="|.SCON1|" type="string" value="��������� IP-�����:" />
+				<item id="|.SCON2|" type="string" value="��������" />
+				<item id="|.SCON3|" type="string" value="���������� ��� �������." />
+				<item id="|.SCON4|" type="string" value="���������� ������" />
+				<item id="|.SCON5|" type="string" value="�����(�)." />
+				<item id="|.SCON6|" type="string" value="������������ UPNP ��� �������� ������ �� �������." />				
+			</Connection>
+			<Output>
+				<!-- common text -->
+				<item id="|.SOUT0|" type="string" value="�����" /> <!-- name in menu -->
+				<item id="|.SOUT1|" type="string" value="���:" />
+				<item id="|.SOUT2|" type="string" value="�������� �����������:" />
+				<item id="|.SOUT3|" type="string" value="��������:" />
+				<item id="|.SOUT4|" type="string" value="������(�)" />
+				<item id="|.SOUT5|" type="string" value="����:" />
+				<item id="|.SOUT6|" type="string" value="�������������� ���������..." />
+				<!-- unique text -->
+				<File>
+					<item id="|.SOFILE0|" type="string" value="����� � ����" /> <!-- name in menu and heading -->
+					<item id="|.SOFILE1|" type="string" value="����:" />
+					<item id="|.SOFILE2|" type="string" value="�����������..." /> <!-- button -->
+					<item id="|.SOFILE3|" type="string" value="��������� ���..." />
+					<item id="|.SOFILE4|" type="string" value="������ ������� �����������" />
+					<item id="|.SOFILE5|" type="string" value="�������..." />
+					<!-- wizard-->
+					<item id="|.SOFILEWIZ0|" type="string" value="������ ������� ��������� ��� ����� � ���� ��� �������� ������� ����������� (������ ���������������� ������)." />
+					<item id="|.SOFILEWIZ1|" type="string" value="�������� �������:" />
+					<item id="|.SOFILEWIZ2|" type="string" value="��������� ��������� N ������ (��������, �� pic-0.jpg �� pic-X.jpg, ����� ������ ����������� ����� ����� ������� �����)." />
+					<item id="|.SOFILEWIZ3|" type="string" value="��������� ����� ��� �����������, � ���������� �� ����������� (����� ������ ����������� ����� ����� ������� �����)" />
+					<item id="|.SOFILEWIZ4|" type="string" value="������� ���������� ��� ���������� �����������." />
+					<item id="|.SOFILEWIZ5|" type="string" value="������� ����������:" />
+					<item id="|.SOFILEWIZ6|" type="string" value="������� ����� ����� �����:" />
+					<item id="|.SOFILEWIZ7|" type="string" value="��������: ��� ����� 'out', ����� ����� ����������� out0.jpg, out1.jpg, out2.jpg � �.�." />
+					<item id="|.SOFILEWIZ8|" type="string" value="�������� ������ �����������:" />
+					<item id="|.SOFILEWIZ9|" type="string" value="������� ���������� ����������� �����������:" />
+					<item id="|.SOFILEWIZ10|" type="string" value="���������. ��������� ���� ��� ����� ������������� ����������� � ���� '����' ���� ��������." />
+					<item id="|.SOFILEWIZ11|" type="string" value="�� �������� ���������� �������� ���������� �����������." />
+				</File>
+				<Ftp>
+					<item id="|.SOFTP0|" type="string" value="����� �� ������ FTP" /> <!-- name in menu and heading -->
+					<item id="|.SOFTP1|" type="string" value="������ FTP:" />
+					<item id="|.SOFTP2|" type="string" value="��� ������������:" />
+					<item id="|.SOFTP3|" type="string" value="������:" />
+					<item id="|.SOFTP4|" type="string" value="����������:" />
+					<item id="|.SOFTP5|" type="string" value="��� �����:" />
+					<item id="|.SOFTP6|" type="string" value="�������� �������� �� ������:" />
+					<item id="|.SOFTP7|" type="string" value="��������: �� ������������� ��������� ������, �������� ���� ������ - �������� �������� ������ �� �������������." />
+					<item id="|.SOFTP8|" type="string" value="��� ������ ���������� ��������� ������� ��� �����������." />
+					<item id="|.SOFTP9|" type="string" value="������ ������� �����������" />
+					<item id="|.SOFTP10|" type="string" value="��� ������ �������������� ��������� ������� ��� �����������." />
+					<item id="|.SOFTP11|" type="string" value="�� ��������� ����������." />
+					<item id="|.SOFTP12|" type="string" value="�� ��������� ���������� � �������� FTP ����� �������� �����������" />
+					<item id="|.SOFTP13|" type="string" value="�������� ����� �� ���� (chmod):" />
+					<item id="|.SOFTP14|" type="string" value="������������ �������� ���������� (������ ����������)." />
+					<item id="|.SOFTP15|" type="string" value="������������ ������������� ����������." />
+					<item id="|.SOFTP16|" type="string" value="FTPS (Ftp ������ �������� TLS/SSL)" />
+					<item id="|.SOFTP17|" type="string" value="FTPES (Ftp ������ ������ TLS/SSL)" />
+					<item id="|.SOFTP18|" type="string" value="����������� ��������� FTP..." />
+					<item id="|.SOFTP19|" type="string" value="������������" />
+					<item id="|.SOFTP20|" type="string" value="��������� � ��������� ������ ����� � ���������������." />
+					<item id="|.SOFTP21|" type="string" value="��������� FTP" />
+					<item id="|.SOFTP22|" type="string" value="���� �������� �������� ����� 60 ������ �� ������������� ������������ ����� '�� ��������� ����������'." />
+					<item id="|.SOFTP23|" type="string" value="������ ��������� ��� �����?" />
+				</Ftp>
+				<Http>
+					<item id="|.SOHTTP0|" type="string" value="����� �� HTTP" /> <!-- name in menu and heading -->
+					<item id="|.SOHTTP1|" type="string" value="URL ��� ������� �����:" />
+					<item id="|.SOHTTP2|" type="string" value="���" />
+					<item id="|.SOHTTP3|" type="string" value="�� ������ ��������������� HTML-����� � ���������� @x ��� ��������� ����������� ���-�������." />
+				</Http>
+				<Stream>
+					<item id="|.SOSTR0|" type="string" value="��������� �����" /> <!-- name in menu and heading -->
+					<item id="|.SOSTR1|" type="string" value="���� �����������:" />
+					<item id="|.SOSTR2|" type="string" value="���� ������:" />
+					<item id="|.SOSTR3|" type="string" value="���������:" />
+					<item id="|.SOSTR4|" type="string" value="�����������" />
+					<item id="|.SOSTR5|" type="string" value="������������� ������� ��������� ip:" />
+					<item id="|.SOSTR6|" type="string" value="URL ����� ����������:" />
+					<item id="|.SOSTR7|" type="string" value="��������: ��� ��������� �� ����� �������� � ��������! ��������� ����(FAQ)." />
+					<item id="|.SOSTR8|" type="string" value="������ �������:" />
+					<item id="|.SOSTR9|" type="string" value="�� �������� ������ �����������" />
+					<item id="|.SOSTR10|" type="string" value="��������!" />
+					<item id="|.SOSTR11|" type="string" value="������������ ���������� ����������:" />
+					<item id="|.SOSTR12|" type="string" value="����������� �� ������ ������:" />
+					<item id="|.SOSTR13|" type="string" value="����������� �� �������:" />
+					<item id="|.SOSTR14|" type="string" value="���������� ����������� � �������:" />
+					<item id="|.SOSTR15|" type="string" value="(��� ���� ���������� ����������� � �������, ��� ���� �������� ���.)" />
+					<item id="|.SOSTR16|" type="string" value="����������� �������� ���������� ��� ����������� ������������." />
+					<item id="|.SOSTR17|" type="string" value="���������� ����������� ��������� ��� ����������� ������������." />
+					<item id="|.SOSTR18|" type="string" value="��� ������:" />
+					<item id="|.SOSTR19|" type="string" value="������� ��:" />
+					<Page_Designer>
+						<item id="|.SOSTRPD0|" type="string" value="�������� �������" />
+						<item id="|.SOSTRPD1|" type="string" value="�����:" />
+						<item id="|.SOSTRPD2|" type="string" value="���������:" />
+						<item id="|.SOSTRPD3|" type="string" value="���� ������:" />
+						<item id="|.SOSTRPD4|" type="string" value="���� ����:" />
+						<item id="|.SOSTRPD5|" type="string" value="����������� ����:" />
+						<item id="|.SOSTRPD6|" type="string" value="���� ������:" />
+						<item id="|.SOSTRPD7|" type="string" value="������ ������:" />
+						<item id="|.SOSTRPD8|" type="string" value="����� ��������:" />
+						<item id="|.SOSTRPD9|" type="string" value="���� ������:" />
+						<item id="|.SOSTRPD10|" type="string" value="���� ���������� ������:" />
+						<item id="|.SOSTRPD11|" type="string" value="���� �������� ������:" />
+						<!-- Dialogs -->
+						<item id="|.SOSTRPDDIA0|" type="string" value="���� ���� ��������� �� ��������� ���� ���-�������." />
+						<item id="|.SOSTRPDDIA1|" type="string" value="����������� ���� � ������ �����?" />
+						<item id="|.SOSTRPDDIA2|" type="string" value="����������� ����?" />
+						<item id="|.SOSTRPDDIA3|" type="string" value="���� ���������� ��� ����������." />
+						<item id="|.SOSTRPDDIA4|" type="string" value="������������ ����?" />
+						<item id="|.SOSTRPDDIA5|" type="string" value="������������?" />
+						<item id="|.SOSTRPDDIA6|" type="string" value="�� ������� ����������� ����!" />
+						<item id="|.SOSTRPDDIA7|" type="string" value="��������� ����� ������ ���� ������� ��� ������ ���������������� ���������." />
+						<item id="|.SOSTRPDDIA8|" type="string" value="������� ��� ������?" />
+						<item id="|.SOSTRPDDIA9|" type="string" value="�������� ��������� �����?" />
+					</Page_Designer>	
+				</Stream>
+			</Output>
+			<Text_Overlay>
+				<item id="|.SOVER0|" type="string" value="������� ����" /> <!-- name in menu (not used since v.0.2.7) -->
+				<item id="|.SOVER0a|" type="string" value="������� ����" /> <!-- name of folder in menu -->
+				<item id="|.SOVER0b|" type="string" value="�����" /> <!-- name in menu -->
+				<item id="|.SOVER0c|" type="string" value="��������� ������� ����" /> <!-- name in settings panel -->
+				<item id="|.SOVER1|" type="string" value="������������:" />
+				<item id="|.SOVER2|" type="string" value="����:" />
+				<item id="|.SOVER3|" type="string" value="�����:" />
+				<item id="|.SOVER4|" type="string" value="���:" />
+				<item id="|.SOVER5|" type="string" value="������:" />
+				<item id="|.SOVER6|" type="string" value="�����" /> <!-- displayed on the tabs -->
+				<item id="|.SOVER7|" type="string" value="��� (4 �����)" />
+				<item id="|.SOVER8|" type="string" value="��� (2 �����)" />
+				<item id="|.SOVER9|" type="string" value="�����" />
+				<item id="|.SOVER10|" type="string" value="����" />
+				<item id="|.SOVER11|" type="string" value="����" />
+				<item id="|.SOVER12|" type="string" value="������" />
+				<item id="|.SOVER13|" type="string" value="������" />
+				<item id="|.SOVER13b|" type="string" value="���������� ��������� ������������" />
+				<!-- position, vertical -->
+				<item id="|.SOVER14|" type="string" value="������" />
+				<item id="|.SOVER15|" type="string" value="�� ������" />
+				<item id="|.SOVER16|" type="string" value="�����" />
+				<!-- position, horizontal -->
+				<item id="|.SOVER17|" type="string" value="�����" />
+				<item id="|.SOVER18|" type="string" value="�� ������" />
+				<item id="|.SOVER19|" type="string" value="������" />
+				<!-- colors -->
+				<item id="|.SOVER20|" type="string" value="�������" />
+				<item id="|.SOVER21|" type="string" value="������" />
+				<item id="|.SOVER22|" type="string" value="�������" />
+				<item id="|.SOVER23|" type="string" value="Ƹ����" />
+				<item id="|.SOVER24|" type="string" value="�����" />
+				<item id="|.SOVER25|" type="string" value="׸����" />
+				<item id="|.SOVER26|" type="string" value="�����" />
+				<item id="|.SOVER27|" type="string" value="�����" />
+				<!-- font type -->
+				<item id="|.SOVER28|" type="string" value="�������" />
+				<item id="|.SOVER29|" type="string" value="������" />
+				<item id="|.SOVER30|" type="string" value="������" />
+				<item id="|.SOVER31|" type="string" value="������������:" /> <!-- First letter of the translation of "transparent" -->
+				<item id="|.SOVER32|" type="string" value="������������ ���:" />
+				<!-- buttons -->
+				<item id="|.SOVER33|" type="string" value="��������������� ��������" />
+				<item id="|.SOVER34|" type="string" value="����������..." />
+				<!-- more stuff -->
+				<item id="|.SOVER40|" type="string" value="���� (12-� �������)" />
+				<item id="|.SOVER41|" type="string" value="�������� ������ ��-���������" />
+				<item id="|.SOVER42|" type="string" value="�������� ��� ������ ��-���������" />
+				<item id="|.SOVER43|" type="string" value="� �������� ������� ������ ����� ������������ ����������, ������� ����� ������������� �������� ������������� ����������." />
+				<item id="|.SOVER44|" type="string" value="�������� ��������� ����������:" />
+				<item id="|.SOVER45|" type="string" value="�������� ������ �� ������� ����� (@x)" />
+				<item id="|.SOVER46|" type="string" value="�������� ��� ������ �� ������� ����� (@x)" />
+				<!-- local calendar names -->				
+				<item id="|.SOVERDAY1|" type="string" value="�����������" />
+				<item id="|.SOVERDAY2|" type="string" value="�������" />
+				<item id="|.SOVERDAY3|" type="string" value="�����" />
+				<item id="|.SOVERDAY4|" type="string" value="�������" />
+				<item id="|.SOVERDAY5|" type="string" value="�������" />
+				<item id="|.SOVERDAY6|" type="string" value="�������" />
+				<item id="|.SOVERDAY7|" type="string" value="�����������" />
+				<item id="|.SOVERMON1|" type="string" value="������" />
+				<item id="|.SOVERMON2|" type="string" value="�������" />
+				<item id="|.SOVERMON3|" type="string" value="����" />
+				<item id="|.SOVERMON4|" type="string" value="������" />
+				<item id="|.SOVERMON5|" type="string" value="���" />
+				<item id="|.SOVERMON6|" type="string" value="����" />
+				<item id="|.SOVERMON7|" type="string" value="����" />
+				<item id="|.SOVERMON8|" type="string" value="������" />
+				<item id="|.SOVERMON9|" type="string" value="��������" />
+				<item id="|.SOVERMON10|" type="string" value="�������" />
+				<item id="|.SOVERMON11|" type="string" value="������" />
+				<item id="|.SOVERMON12|" type="string" value="�������" />
+			</Text_Overlay>
+			<Image_Overlay>
+				<item id="|.SIOVER0a|" type="string" value="�����������" /> <!-- name in menu -->
+				<item id="|.SIOVER0b|" type="string" value="����������� ������� ���� " /> <!-- name in settings panel -->
+				<item id="|.SIOVER1|" type="string" value="�����������" /> <!-- text on tabs -->
+				<item id="|.SIOVER2|" type="string" value="��������..." />
+				<item id="|.SIOVER3|" type="string" value="�������" />
+				<item id="|.SIOVER4|" type="string" value="������������:" />	
+			</Image_Overlay>
+			<Startup>
+				<item id="|.SSTRT0|" type="string" value="������" /> <!-- name in menu and heading -->
+				<item id="|.SSTRT1|" type="string" value="����� ����� �c�������� ��� ����� �������� ��� ��������� ��� ������� Yawcam." />
+				<item id="|.SSTRT2|" type="string" value="�������� ����� � ���� " />
+				<item id="|.SSTRT3|" type="string" value="�������� ����� �� ������ FTP" />
+				<item id="|.SSTRT4|" type="string" value="�������� ����� �� HTTP" />
+				<item id="|.SSTRT5|" type="string" value="�������� ���� ���������������� ���������" />
+				<item id="|.SSTRT6|" type="string" value="�������� ���� �������" />
+				<item id="|.SSTRT7|" type="string" value="�������� ���� ����������" />
+				<item id="|.SSTRT8|" type="string" value="�������� ��� �������" />
+				<item id="|.SSTRT9|" type="string" value="���������� �������������� ���� �������" />
+				<item id="|.SSTRT10|" type="string" value="�������� ��������� �����" />
+				<item id="|.SSTRT11|" type="string" value="�������� ���� ������������" />
+				<item id="|.SSTRT12|" type="string" value="��������� ������� ����� ������ ��������" />
+				<item id="|.SSTRT13|" type="string" value="��������� ���� �������" />
+				<item id="|.SSTRT14|" type="string" value="�������� �������� ��������" />
+			</Startup>
+			<Offline_Image>
+				<item id="|.SOFFIMG0|" type="string" value="����������� � �������������" />
+				<item id="|.SOFFIMG1|" type="string" value="���������� ����������� � ������������� � ���� ���:" />
+				<item id="|.SOFFIMG2|" type="string" value="������� �����������:" />
+				<item id="|.SOFFIMG3|" type="string" value="����� ���������� ��� ������ �� ��������(p���������� �����)." />
+				<item id="|.SOFFIMG4|" type="string" value="�������� �����������" />
+			</Offline_Image>
+			<Password>
+				<item id="|.SPASS0|" type="string" value="������" />
+				<item id="|.SPASS1|" type="string" value="������������ ������ ��� ������� � ���������� ������." />
+				<item id="|.SPASS2|" type="string" value="�����������..." />
+				<item id="|.SPASS3|" type="string" value="��������! ��� ������ ����� �������!" />
+				<item id="|.SPASS4|" type="string" value="�� �������, ��� ���������� ����������?" />
+				<item id="|.SPASS5|" type="string" value="������ ��� ������������ @x ����� �����!" />
+				<item id="|.SPASS6|" type="string" value="������������ �� ������!" />
+				<item id="|.SPASS7|" type="string" value="�������� ������������ � ������� ������ '@x' �����." />
+				<item id="|.SPASS8|" type="string" value="�� ���� ���������..." />
+				<item id="|.SPASS9|" type="string" value="�� ���������� ������� �����:" />
+				<item id="|.SPASS10|" type="string" value="�������� ������������/������..." />
+				<item id="|.SPASS11|" type="string" value="������������" />
+				<item id="|.SPASS12|" type="string" value="������" />
+				<item id="|.SPASS13|" type="string" value="����������� ������" />
+				<item id="|.SPASS14|" type="string" value="�� �������� ��� ����� ������������ �������� ������ ���������� ������ � ����������� � ���������� ���������� ������!" />
+				<item id="|.SPASS15|" type="string" value="��������, ��� �� �� ��� �� ������ ;-)" />
+				<item id="|.SPASS16|" type="string" value="���������� � ����� ������?" />
+				<item id="|.SPASS17|" type="string" value="�� �������?" />
+			</Password>
+			<Announcements>
+				<item id="|.SANN0|" type="string" value="�����������" /> <!-- name in menu and heading -->
+				<item id="|.SANN1|" type="string" value="�� ������ ������ �� ������ ��������� �����������, ������� ����� ����������, ��������, ���-���������� ����� ���� ������ ������ �������� �� ����." />
+				<item id="|.SANN2|" type="string" value="����������� � ����������� � ����:" />
+				<item id="|.SANN3|" type="string" value="����������� ��� ������������� � ����:" />
+				<item id="|.SANN4|" type="string" value="���������� ����������� ����� ������ ��������/���������� ��:" />
+				<item id="|.SANN5|" type="string" value="��������������� ��������" />
+				<item id="|.SANN6|" type="string" value="����������" />
+				<item id="|.SANN7|" type="string" value="�����������:" />
+				<item id="|.SANN8|" type="string" value="��������:" />
+				<item id="|.SANN9|" type="string" value="����������:" />
+				<item id="|.SANN10|" type="string" value="����������� ������ ������� �� http-��������." />
+				<item id="|.SANN11|" type="string" value="���� ���-���������� ����������� ���������� � ��� ��� ������ ��������� ������ �����������." />
+				<item id="|.SANN12|" type="string" value="�� ���� ������������ ��������� ���������� � �������� ������ �����������:" />
+				<item id="|.SANN13|" type="string" value="URL ����������� ���-������� Yawcam's (HTTP)" />
+				<item id="|.SANN14|" type="string" value="URL ���������� ������ Yawcam (�����)" />
+				<item id="|.SANN15|" type="string" value="��������!" />
+				<item id="|.SANN16|" type="string" value="�� ���� ��������� ����������� � �����������!" />
+				<item id="|.SANN17|" type="string" value="�� ���� ��������� ����������� � �������������!" />
+				<item id="|.SANN18|" type="string" value="����������, ��������� ���������..." />
+			</Announcements>
+			<Scheduler>
+				<item id="|.SSCHED0|" type="string" value="�����������" /> <!-- name in menu and heading -->
+				<item id="|.SSCHED1|" type="string" value="�������� �����������" />
+				<item id="|.SSCHED2|" type="string" value="�������" />
+				<item id="|.SSCHED3|" type="string" value="��������" />
+			</Scheduler>
+		</Settings>
+		<Motion_Detection>
+		
+		</Motion_Detection>
+		<About>
+			<item id="|.ABW0|" type="string" value="� �������� Yawcam" /> <!-- heading for window -->
+			<item id="|.ABW1|" type="string" value="�������:" />
+			<item id="|.ABW2|" type="string" value="�������:" />
+			<item id="|.ABW3|" type="string" value="�������" /> <!-- button -->
+		</About>
+		<Pass_Prompt>
+			<item id="|.PSSP0|" type="string" value="���� �����������..." /> <!-- heading for window -->
+			<item id="|.PSSP1|" type="string" value="������� ����������� Yawcam �� ������ FTP � ��������� ������������� � ������� �� �������! ��������� � ������� ������ ��������:" />
+			<item id="|.PSSP2|" type="string" value="������������:" />
+			<item id="|.PSSP3|" type="string" value="������:" />
+			<item id="|.PSSP4|" type="string" value="��������� ������. (�� ���������!)" />
+		</Pass_Prompt>
+		<TrayIcon_popmenu>
+			<item id="|.TIM0|" type="string" value="������/��������" />
+			<item id="|.TIM1|" type="string" value="������ ������ ������ ����" />
+			<item id="|.TIM2|" type="string" value="��������" />
+			<item id="|.TIM3|" type="string" value="����" />
+			<item id="|.TIM4|" type="string" value="FTP" />
+			<item id="|.TIM5|" type="string" value="HTTP" />
+			<item id="|.TIM6|" type="string" value="�����" />
+			<item id="|.TIM7|" type="string" value="���������..." />
+			<item id="|.TIM8|" type="string" value="������..." />
+			<item id="|.TIM9|" type="string" value="�����" />
+			<item id="|.TIM10|" type="string" value="�������� ��������" />
+			<item id="|.TIM11|" type="string" value="�����������" />
+		</TrayIcon_popmenu>
+		<Viewers>
+			<item id="|.VIEWF0|" type="string" value="�����������:" /> <!-- label for number of viewers -->
+			<item id="|.VIEWF1|" type="string" value="IP" />
+			<item id="|.VIEWF2|" type="string" value="��� ��" />
+			<item id="|.VIEWF3|" type="string" value="�����" />
+			<item id="|.VIEWF4|" type="string" value="���������� (kB)" />
+			<item id="|.VIEWF5|" type="string" value="��������� �����������" /> <!-- window title -->
+			<item id="|.VIEWF6|" type="string" value="���������!" />
+			<item id="|.VIEWF7|" type="string" value="������ ����������� ������������..." />
+			<item id="|.VIEWF8|" type="string" value="��������� ������!" />
+			<item id="|.VIEWF9a|" type="string" value="��������� ������ �����������?" />
+			<item id="|.VIEWF9b|" type="string" value="�� �������, ��� ������ ��������� ������ �����������?" />
+			<item id="|.VIEWF10|" type="string" value="���������" />
+			<item id="|.VIEWF11a|" type="string" value="������� IP-�����" />
+			<item id="|.VIEWF11b|" type="string" value="������� IP-����� ��� ������� �������:" />
+			<item id="|.VIEWF12|" type="string" value="IP-������, ������� �������� ������:" />
+		</Viewers>
+		<ImgToMov>
+			<item id="|.IMGTM0|" type="string" value="����������� � �����" /> <!-- title -->
+			<item id="|.IMGTM1|" type="string" value="������ ���������� ���� �������� ���������� ����������� � �����." />
+			<item id="|.IMGTM2|" type="string" value="����������� � ������ ���� ����� �������� � �����:" />
+			<item id="|.IMGTM3|" type="string" value="�������� �������" />
+			<item id="|.IMGTM4|" type="string" value="�������� �����������..." />
+			<item id="|.IMGTM5|" type="string" value="�������� ������ � �������:" />
+			<item id="|.IMGTM6|" type="string" value="������/���" /> <!-- fps (frames per second) -->
+			<item id="|.IMGTM7|" type="string" value="��� ����� ��� ������:" />
+			<item id="|.IMGTM8|" type="string" value="������� �����" />
+			<item id="|.IMGTM9|" type="string" value="������� �������� �������� �� ������!" />
+			<item id="|.IMGTM10|" type="string" value="�������� ����������� � ������!" />
+			<item id="|.IMGTM11a|" type="string" value="������� ����� ����� � ���� '�������� ������ � �������'!" />
+			<item id="|.IMGTM11b|" type="string" value="���������� �������� �� 1 �� 90." />
+			<item id="|.IMGTM12|" type="string" value="������� ��� ����� ��� ������." />
+			<item id="|.IMGTM13|" type="string" value="������ �����..." />
+			<item id="|.IMGTM14|" type="string" value="�������� �����������..." />
+			<item id="|.IMGTM15|" type="string" value="�� ������ ����� ����� �����:" />
+			<item id="|.IMGTM16|" type="string" value="���������." />
+			<item id="|.IMGTM17|" type="string" value="��������� �����..." />			
+			<item id="|.IMGTM18|" type="string" value="�������� �����������..." />
+		</ImgToMov>
+		<Popup_Errors>
+			<item id="|.POPER0|" type="string" value="������..." /> <!-- heading for all error popups -->
+			<item id="|.POPER1a|" type="string" value="����������� ����(��)!" />
+			<item id="|.POPER1b|" type="string" value="��������� ����� � ���������� FTP �������." />
+			<item id="|.POPER2a|" type="string" value="� ���������� ��������!" />
+			<item id="|.POPER2b|" type="string" value="��������� ��������� FTP �������." />
+			<item id="|.POPER3a|" type="string" value="������ ��������!" />
+			<item id="|.POPER3b|" type="string" value="����������, ���������, ��� � ��� ���� ���������� �� �������� �� ������ ������ FTP." />
+			<item id="|.POPER4|" type="string" value="�������� ���� xml!" />
+			<item id="|.POPER5|" type="string" value="�� ���� ����� ����:" />
+			<!-- input errors -->
+			<item id="|.POPER6|" type="string" value="����������, ��������..." />
+			<item id="|.POPER7a|" type="string" value="������������ ��������� ���������!" />
+			<item id="|.POPER7b|" type="string" value="��� ���� ������ ��������� ������ �����. (��������: 10 or 300)" />
+			<item id="|.POPER8a|" type="string" value="�������� ����� �����!" />
+			<item id="|.POPER8b|" type="string" value="��� ���� ������ ��������� ������ �����. (��������: 21)" />
+			<item id="|.POPER9|" type="string" value="��� ���� ������ ��������� ������ �����. (��������: 8888)" />
+			<item id="|.POPER10|" type="string" value="���� @x ��� ������������." />
+			<item id="|.POPER11|" type="string" value="����������, ������� ������ ����." />
+			<item id="|.POPER12a|" type="string" value="��� ����� ����������!" />
+			<item id="|.POPER12b|" type="string" value="����������, ���������, ��� ����������, ��������� � ��������� FTP ������������� ���������� �� �������." />
+			<!-- misc -->
+			<item id="|.POPERLANG0|" type="string" value="��������..." />
+			<item id="|.POPERLANG1|" type="string" value="��� ������ Yawcam �� ����� ����� ������." />
+			<item id="|.POPERLANG2|" type="string" value="��������� ���������� �� www.yawcam.com." />
+			<!-- camera errors -->
+			<item id="|.POPERCAM0|" type="string" value="Yawcam �� ����� ������������ � ������." />
+			<item id="|.POPERCAM1|" type="string" value="���������, ��� ������ �� ���������� ������ ���������� ��� �������� ������." />
+			<item id="|.POPERCAM2|" type="string" value="���� ������ ����� ����, ������� @x ����� @y � ���� @z." />
+			<!-- File-output errors -->
+			<item id="|.POPERFILE0|" type="string" value="�� ���� ��������� ����: @x" />
+			<item id="|.POPERFILE1|" type="string" value="��������� ������������� �� ���������� ��������� ���������! (���� ���, �������� ���������...)" />
+			<!-- More Ftp-output errors -->
+			<item id="|.POPERFTP0|" type="string" value="�� ���� ��������� ��������� ����!" />
+			<item id="|.POPERFTP1|" type="string" value="��������� ���������� ��  ���������� @x. (���� ���, ��������)" />
+			<!-- add password error -->
+			<item id="|.POPERPASADD0|" type="string" value="������� ��� ������������!" />
+			<item id="|.POPERPASADD1|" type="string" value="������ �� �����." />
+			<item id="|.POPERPASADD2|" type="string" value="���������� �����!" />
+			<item id="|.POPERPASADD3|" type="string" value="������ �� ����� ���� ������!" />
+			<!-- stream -->
+			<item id="|.POPERSTRM0|" type="string" value="�� ������� ���������� IP �������������!" />
+			<item id="|.POPERSTRM1|" type="string" value="���� ������ ��������� ������ ����� �����." />
+		</Popup_Errors>
+	</GUI>
+	<Console>
+		<item id="|.CNSPR0|" type="string" value="�������� Yawcam ��������" />
+		<item id="|.CNSPR1|" type="string" value="��������� ���������" />
+		<item id="|.CNSPR2|" type="string" value="��������� ���������" />
+		<item id="|.CNSPR3|" type="string" value="����� � ���� �������" />
+		<item id="|.CNSPR4|" type="string" value="����� � ���� ����������" />
+		<item id="|.CNSPR5|" type="string" value="����� �� ������ FTP �������" />
+		<item id="|.CNSPR6|" type="string" value="����� �� ������ FTP ����������" />
+		<item id="|.CNSPR7|" type="string" value="����� �� HTTP �������" />
+		<item id="|.CNSPR8|" type="string" value="����� �� HTTP ����������" />
+		<item id="|.CNSPR9|" type="string" value="������ �����������: @x" />
+		<item id="|.CNSPR10|" type="string" value="��������� ����������: @x" />
+		<item id="|.CNSPR11|" type="string" value="����: @x" />
+		<item id="|.CNSPR12|" type="string" value="Yawcam �����" />
+		<item id="|.CNSPR13|" type="string" value="Yawcam �������" />
+		<item id="|.CNSPR14|" type="string" value="��� ���-������..." />
+		<item id="|.CNSPR15|" type="string" value="�������!" />
+		<item id="|.CNSPR16|" type="string" value="���� �������" />
+		<item id="|.CNSPR17|" type="string" value="��������� ����� �������" />
+		<item id="|.CNSPR18|" type="string" value="��������� ����� ����������" />
+		<item id="|.CNSPR19|" type="string" value="������ �������� �� ������ http://www.yawcam.com/help/help.php" />
+		<item id="|.CNSPR20|" type="string" value="���� @x ��� ������������!" />
+		<item id="|.CNSPR21|" type="string" value="�� ���� ������������ � ������� FTP!" />
+		<item id="|.CNSPR22|" type="string" value="FTP: ���� ���������� ������� ��-�� ������������. ����������� �� ������������ ����� '�� ��������� ����������'." />
+		<item id="|.CNSPR23|" type="string" value="����������� ����� ������ ��������� �� ������." />		 
+	</Console>
+</yawcam_lang>

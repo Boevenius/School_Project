@@ -1,0 +1,1 @@
+The files in this directory can be deleted when Yawcam not is running!

@@ -1,0 +1,4 @@
+<user-home>.yawcam\logs\info.txt
+
+This directory will contain log files in textformat if the option "save log file" is selected in the settings.
+

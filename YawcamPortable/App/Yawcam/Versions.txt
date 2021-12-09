@@ -1,0 +1,355 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| Yawcam - Version history |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Version 0.6.0 (2016-05-11):
+иииииииииииииииииииииииииии
+- Added "Silent retry on error" for File output.
+- Added option to disable confirmation of multiple instances.
+- Added option to start capture window at startup.
+- Added option to disable sound in capture window.
+- Added option to auto save images from capture window.
+- Added option to add overlay on images saved from capture window.
+- Changed where image quality is selected for capture window.
+- Fixed possible deadlock in device error monitor.
+- Fixed a problem where the service didn't start with 64-bit java.
+- Fixed that MD analyzed images faster than the camera could deliver.
+- Fixed bug when filename contained multiple "{" or "}" for File and Ftp.
+- Fixed page designer's preview for MJPEG.
+- Fixed path problem for browse/save buttons.
+- Fixed some static language.
+- Updated language files.
+
+
+Version 0.5.0 (2016-01-31):
+иииииииииииииииииииииииииии
+- Fixed problem with repeated images when device wakes up after sleep.
+- Fixed extravars text overlay for empty files.
+- Fixed correct action on cancel button for IP camera settings.
+- Fixed the broken limit function for motion detection actions.
+- Fixed performance problem when the Motion Event list is very long.
+- Fixed possible memory leak when previewing Motion Events.
+- Fixed window position when previewing Motion Events.
+- Fixed image width/height ratio in Motion Events' mini preview.
+- Fixed e-mail smtp port number problem in SSL mode.
+- Fixed the 2GB file size limit for "Images to Movie".
+- Fixed broken page preview.
+- Fixed compatibility issues with Java 9.
+- Added default URL if version check fails.
+- Added auto sensitivity/tolerance for motion detection.
+- Added new algorithm for motion detection.
+- Added max filter for motion detection.
+- Added noise filter for motion detection.
+- Added popup menu with image size for motion detection.
+- Added video recorder for motion detection.
+- Added auto delete for motion detection's event list.
+- Added option to show Preview Window without borders.
+- Added functionality to move Preview Window with mouse dragging.
+- Added support for running multiple instances of Yawcam.
+- Improved JPEG encoding performance.
+- Removed the Java Applet.
+- Updated language files.
+
+
+Version 0.4.2 (2015-07-20):
+иииииииииииииииииииииииииии
+- Added workaround for java 1.8.0_X symbolic link problems.
+
+
+Version 0.4.1 (2013-04-18):
+иииииииииииииииииииииииииии
+- Fixed problems introduced with java 1.7.0_21
+- Fixed that MD couldn't be disabled in some cases.
+
+
+Version 0.4.0 (2013-02-17):
+иииииииииииииииииииииииииии
+- Fixed problem with spaces in file path for MD's Run .exe
+- Fixed better argument handler for MD's run .exe
+- Fixed that MD sometimes got triggered on exit.
+- Fixed that MD didn't stop active event on disable button.
+- Fixed problem with certificate handler for FTPES.
+- Fixed problem with hibernation.
+- Fixed delayed open of settings when problem detecting local ip.
+- Fixed missing error message for "Change to device..." when device error.
+- Changed timestamp in console.
+- Added memory for the settings in the function: Images to Movie.
+- Added memory for the capture dialog's file path.
+- Added option to force timezone: timezone.txt
+- Added device error monitor.
+- Updated language files.
+
+
+Version 0.3.9 (2012-10-27):
+иииииииииииииииииииииииииии
+- Changed limit behavior in motion detection.
+- Fixed motion detection's problem running .bat files.
+- Added text file hack: ipcheckurl.txt
+- Added workaround for unstable ftp hosts.
+- Added favicon.ico for built in webserver.
+- Updated language files.
+
+
+Version 0.3.8 (2012-06-11):
+иииииииииииииииииииииииииии
+- Fixed DSJ timeout problem for IP-cameras.
+- Fixed a problem with FTP using IPV6 config and JRE7.
+- Added compatibility with more ftp servers.
+- Added support for running as a service with a 64-bit JRE.
+
+
+Version 0.3.7 (2011-11-09):
+иииииииииииииииииииииииииии
+- Fixed settings and GUI problems with Java 7.
+- Fixed that image was saved at startup even when scheduler disabled the file output.
+- Fixed broken horizontal flip when running as a service.
+- Added text file hack: javarendering.txt
+- Added an attempt to reconnect the camera if unexpectedly lost.
+- Updated language files.
+
+
+Version 0.3.6 (2011-03-22):
+иииииииииииииииииииииииииии
+- Fixed 12 hour clock overlay.
+- Fixed problem with "Don't save Motion Event" for File and Ftp action.
+- Fixed "define motion detection area" for when image > screen size.
+- Changed installer to Inno Setup 5.4.2
+- Updated language files. 
+
+
+Version 0.3.5 (2011-02-19):
+иииииииииииииииииииииииииии
+- Fixed broken ftp in service mode. 
+- Fixed problem with "Stay connected" and long ftp intervals. 
+- Fixed problem with fullscreen and always on top. 
+- Fixed better ip resolving for UPNP-mapping.
+- Added option for ftp to upload final filename directly. 
+- Added script for debug logging. 
+- Added file hack for playing soundfiles. 
+- Added fallback for bad FTP REST response. 
+- Added variables {day}, {dayShort}, {month} and {monthShort} for filenames. 
+- Added numbers to the name of identical devices in the device list. 
+- Added MJPEG as new stream type. 
+- Added new overlay variable {file:xxx}
+- Updated language files. 
+
+
+Version 0.3.4 (2011-01-01):
+иииииииииииииииииииииииииии
+- New FTP handler.
+- Added option to stay connected during the ftp sleeping interval.
+- Added option for silent retry on authentication error for ftp.
+- Added GUI option to chmod ftp file. (No need for text-file-hack any more)
+- Added option to run ftp secure in FTPS or FTPES mode.
+- Added option to run ftp in active mode.
+- Added delayed start for motion detection.
+
+
+Version 0.3.3 (2010-02-28):
+иииииииииииииииииииииииииии
+- Fixed better controls to select video format. (No need for forcevideoformat.txt any more...)
+- Added compatibility mode if native rendering fails.
+- Added possibility to flip image.
+- Fixed problem with black images on large image sizes.
+- Fixed problem with old image when preview window was closed.
+- Added option to release camera completely with text file hack: releasecamera.txt
+- Better support for Chinese and Japanese language.
+- Improved speed in internal webserver.
+- Added fullscreen mode for preview.
+- Added possibilty to keep aspect ratio for preview.
+- Fixed possible memory leak in file output.
+- Added new overlay variable: %pubip 
+- Handles missing file name for file output better.
+- Added info button in file output settings.
+
+
+Version 0.3.2 (2010-01-02):
+иииииииииииииииииииииииииии
+- Fixed the problem to start Yawcam with Windows 7 64bit and 32bit java.
+- Added possibility to disable check for other instances of Yawcam.
+
+
+Version 0.3.1 (2009-12-29):
+иииииииииииииииииииииииииии
+- Added support Windows Vista and Windows 7.
+- Added support for network cameras.
+- Added better support for DV-cameras.
+- Added possibility to run Yawcam as a windows service.
+- Added socket timeout for ftp upload.
+- Added more language files.
+- Added option for forcing reload of overlay images.
+- Added possibility to use longer intervals for FTP and FILE.
+- Added {tstampMS} variable also for FILE output.
+- Creates folder structure if needed when saving files via FILE output and motion detection.
+- Changed timeout for the streaming javascript's loading image.
+- Improved usability for ImagesToMovie function.
+- Fixed the bug with the flickering preview window.
+- Fixed shorter waiting time before stream starts.
+- Fixed problem detecting 64bit java.
+- Fixed some GUI errors.
+- Fixed problem with bad image quality when running as service.
+- Removed Stealth mode. (Run as service instead)
+
+
+Version 0.3.0 (2007-04-06):
+иииииииииииииииииииииииииии
+- Updated the video source handler.
+- Fixed FREEZE BUG!
+- Fixed memory leak in JPEG encoding.
+- Removed JRE from installation file.
+- Added stream by JavaScript.
+- Added new stream protocol for applet.
+- Added possibility to disable zoom in applet.
+- Added popup menu for right click on applet.
+- Added the file name variables: 
+    {date},{dateY},{dateM},{dateD},{tstamp},{tstampH},{tstampM},{tstampS}
+- Added function to save images into a movie.
+- Added image overlay.
+- Added kick and ban stream viewers.
+- Added always on top option.
+- Added right click menu on tray icon.
+- Added tray icon balloon tip text.
+- Fixed decimal value bug in ftp and file interval fields.
+- CPU optimizations for file and ftp output.
+- Fix: Version check doesn't affect startuptime any more.
+- Added stealth mode, which allows hiding windows and tray icon.
+- Fixed offline image to save as "out0.jpg" instead of "out{5}.jpg".
+- Fixed a problem related to image arrays and FTP.
+- Fixed bug in FTP regarding multiline answers to NLST.
+- Fixed speedup for FTP image arrays.
+- Added more options in image array wizard.
+- Added user defined overlay variables (parsed from text file).
+- Added a Scheduler.
+- Fixed a bug in "silent retry on connection error" for ftp upload.
+- Added possibility to use all system fonts in text overlay.
+- Added resized images function to fit a PDA's or Mobile phone's screen.
+- Added WAP page with WAP 2.0 XHTML compatibility.
+- Fixed a bug where ftp sometimes didn't delete temporary files.
+- Fixed that webserver didn't allow filenames containing spaces.
+- Added a new page in the settings for the connection.
+- Added support to forward ports via UPNP.
+- Added a page designer for the stream page.
+- Now loads from the template file dynamically on each request.
+- Added online check and url info guides.
+- The local IP is detected more accurate and hopefully not confused by Firewire ports etc.
+- Added Motion Detection.
+
+
+Version 0.2.6 (2005-05-01):
+иииииииииииииииииииииииииии
+- Fixed security hole in webserver.
+- Fixed scrolling problems in console.
+- Centered ftp Password prompt.
+
+
+Version 0.2.5 (2005-02-04):
+иииииииииииииииииииииииииии
+- Fixed bug in hidden startup mode.
+- Fixed better error handling for settings file .
+- Added offline-image-function.
+- Added Time and Data limits.
+- Added maximum stream connection limits.
+- Added variable stream image production rate.
+- Made stream startup robuster on slower computers.
+- Fixed a small memory leakage when closing a stream connection.
+- Fixed ViewerFrame no-update bug.
+- Now ftp uploads tmp-file and rename to correct name.
+- Fixed the "String index out of range"-bug for the ftp.
+- Added support for saving image arrays on ftp. 
+- Added Offline-image possibilities for applets on separate webservers.
+- Fixed a time problem in the applet that sometimes made it lag.
+- Added confirm dialog before detect webcam function.
+- Made the password prompts submit when pressing enter for:
+    the applet,
+    the ftp password,
+    the add a user/password to the stream dialog.
+- Changed the panning behaviour for the applet. 
+    (It now pans when the mouse is near the applet's border)
+- Fixed the loading text in the applet that didn't disapear in some browsers.
+- Fixed modal behaviour for popup windows.
+- Added a progress bar on closing.
+- Added sound alert when a viewer connects.
+- Added sound effect when capturing an image from capture window.
+- Fixed the wrong-size-on-preview-window bug.
+
+
+Version 0.2.4 (2004-12-05):
+иииииииииииииииииииииииииии
+- Fixed some ftp bugs.
+- Added silent retry option for ftp errors.
+- Added path memory for save dialog.
+- Added some new overlay variables.
+- Added text overlay preview.
+- Added some new warning messages.
+- Added announcement possibilities.
+- Added possibility to use older language
+  files. Missing parts will now show up 
+  in english.
+- Added forced applet size.
+- Added zoom functionality in applet.
+- No need for the signed applet anymore.
+- Added smarter code for data transfer to applet.
+- Added password protection for the stream applet.
+- Added button for auto detection of public ip.
+- Changed from java 1.4 to java 1.5 (5.0)
+
+
+Version 0.2.3 (2004-04-27):
+иииииииииииииииииииииииииии
+- Changed XML-parser for the settings file.
+- Added more text colors.
+- Added background colors for text overlays.
+- Added logfile printing.
+- Added support for saving image arrays.
+- Fixed Stream-startup-bug.
+- Fixed Ftp-directory-bug.
+- Fixed GifEncoder-bug.
+- Fixed Ftp-time-out-bug.
+- Added version check option in settings.
+
+
+Version 0.2.2 (2004-03-29):
+иииииииииииииииииииииииииии
+- Fixed the java 1.3 requirements mistake 
+  in the stream applet.
+
+
+Version 0.2.1 (2004-03-26):
+иииииииииииииииииииииииииии
+- Stream output now only use one port.
+- Added more error texts in the applet.
+- Added a signed applet.
+- Added support for more file types 
+  in the http server.
+- Text is aligned in main window.
+- Now consumes less CPU.
+- Now open webpages in new windows.
+- Fixed open-url-bug in win9x.
+- Detecting webcam now works smoother.
+- Checks for new versions at start.
+
+
+Version 0.2 (2004-02-05):
+иииииииииииииииииииииииии
+- Video-streaming added.
+- Some code optimization.
+- Made some static english language dynamic.
+- Fixed some window placement.
+
+
+Version 0.1.1 (2003-12-31):
+иииииииииииииииииииииииииии
+- Fixed mutex bug in HTTP.
+- Fixed memory leakage in console.
+- HTTP doesn't leave the browser waiting 
+  when HTTP-output is turned off.
+
+
+Version 0.1 (2003-12-18):
+иииииииииииииииииииииииии
+- First official release...
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+|     www.yawcam.com     |
+~~~~~~~~~~~~~~~~~~~~~~~~~~

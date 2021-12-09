@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+
+<!--  
+*	Language file for yawcam
+*	More language files can be found at: www.yawcam.com	
+*
+*	Translation instructions:	
+*	1)	Letters behind a '@'
+*		( for example @x ) are variables and will be replaced with 
+*		something else in the real program.
+*
+*	2)	The option 'Language' in the help menu must also 
+*		contain the English word "language" in the translation.
+*		So if the translation of "language" is "foo", then
+*		the label in the menu should be: "Foo/Language..."
+*
+*	3)	In the <lang_version> section: 
+*		"LV1" is the version number of yawcam that this 
+*			language file is written for. (Should be something 
+*			like 0.1)
+*		"LV2" is the version letter of the language file. Every new
+*			translation for a new version of yawcam should have the 
+*			version letter 'a'. When updates to the language file are 
+*			made change to the following letter. (a to b, b to c, and so on)
+*
+*	4)	In the <translator> section, please fill in your name and e-mail.
+*       If you are updating a translation, keep the old name and add your name behind a ;
+*       It will look somehting like this: "trans1 (trans1@email.com);trans2 (trans2@email.com)"
+*
+*	5)	An <item id="  " ... > tag must always be on one row! Never insert 
+*		a line break, even if the text is really long.
+*
+*	6)	Translations can be mailed to translations@yawcam.com
+*			
+*	7)	Have fun! And Thanks for contributing! //Magnus Lundvall
+*
+--> 
+
+<yawcam_lang>
+	<misc>
+		<language>
+			<!-- Change to the current language -->
+			<item id="|.L1|" type="string" value="Slovak" />
+		</language>
+		<translator>
+			<!-- Also include e-mail -->
+			<item id="|.T1|" type="string" value="Stanislav Bebej (stanislav.bebej@gmail.com)" /> <!-- Replace with your own name and e-mail -->
+		</translator>
+		<lang_version>
+			<!-- The version number should follow the standard described above! -->
+			<item id="|.LV1|" type="string" value="0.3.0" /> <!-- Yawcam version -->	
+			<item id="|.LV2|" type="string" value="b" /> <!-- Language file version -->
+		</lang_version>
+	</misc>
+	<GUI>
+		<Menu>
+			<File>
+				<item id="|.MF0|" type="string" value="Súbor" />
+				<item id="|.MF1|" type="string" value="Zapnú Výstup do súboru" />
+				<item id="|.MF2|" type="string" value="Zapnú Výstup na FTP" />
+				<item id="|.MF3|" type="string" value="Zapnú Výstup do HTTP" />
+				<item id="|.MF4|" type="string" value="Zapnú Výstup na Stream" />
+				<item id="|.MF5|" type="string" value="Koniec" />
+        			<item id="|.MF6|" type="string" value="Obrázky do videa" />
+				<item id="|.MF7|" type="string" value="Zapnú pohyb" /> 
+			</File>
+			<View>
+				<item id="|.MV0|" type="string" value="Zobrazi" />
+				<item id="|.MV1|" type="string" value="Panel nastavení" />
+				<item id="|.MV2|" type="string" value="Konzola" />
+				<item id="|.MV3|" type="string" value="Skry po štarte" />
+				<item id="|.MV4|" type="string" value="Skry teraz" />
+        			<item id="|.MV5|" type="string" value="Vždy navrchu" />
+				<item id="|.MV6|" type="string" value="Utajený mód" />
+				<item id="|.MV7|" type="string" value="V utajení pri štarte" />
+				<item id="|.MV8|" type="string" value="Utaji teraz" />
+			</View>
+			<Settings>
+				<item id="|.MS0|" type="string" value="Nastavenia" />
+				<item id="|.MS1|" type="string" value="Nájs web kameru" />
+				<item id="|.MS2|" type="string" value="Zmeni nastavenia" />
+        			<item id="|.MS3|" type="string" value="Zariadenie" />
+				<item id="|.MS4|" type="string" value="žiadne" />
+			</Settings>
+			<Window>
+				<item id="|.MW0|" type="string" value="Okno" />
+				<item id="|.MW1|" type="string" value="Náh¾ad" />
+				<item id="|.MW2|" type="string" value="Záznam" />
+				<item id="|.MW3|" type="string" value="Konzola" />
+				<item id="|.MW4|" type="string" value="Štatistiky" />
+				<item id="|.MW5|" type="string" value="Návštevníci" />
+        			<item id="|.MW6|" type="string" value="Detekcia pohybu" />
+			</Window>
+			<Help>
+				<item id="|.MH0|" type="string" value="Pomoc" />
+				<item id="|.MH1|" type="string" value="Obsah" />
+				<item id="|.MH2|" type="string" value="Jazyk/Language..." /> <!-- Also add the enlish word language, see instructions above! -->				
+				<item id="|.MH3|" type="string" value="Navštívi stránku Yawcam" />
+				<item id="|.MH4|" type="string" value="O programe" />
+				<item id="|.MH5|" type="string" value="Prispie $$$" />
+        			<item id="|.MH6|" type="string" value="Som pripojený?" />
+				<item id="|.MH7|" type="string" value="Aká je moja URL adresa?" />
+				<item id="|.MH8|" type="string" value="Nastavi router?" />
+			</Help>
+		</Menu>
+		<Main_Window>
+			<item id="|.MAINW0|" type="string" value="Panel nastavení" /> <!-- name on the control panel tab -->
+			<item id="|.MAINW1|" type="string" value="Konzola" /> <!-- name on the console tab -->
+			<item id="|.MAINW2|" type="string" value="Do súboru" /> <!-- File-output label -->
+			<item id="|.MAINW3|" type="string" value="Na FTP" /> <!-- Ftp-output label -->
+			<item id="|.MAINW4|" type="string" value="Do HTTP" /> <!-- Http-output label -->
+			<item id="|.MAINW5|" type="string" value="Na Stream" /> <!-- Stream-output label -->
+			<item id="|.MAINW6|" type="string" value="zapnú" /> <!-- button text -->
+			<item id="|.MAINW7|" type="string" value="vypnú" /> <!-- button text -->
+      			<item id="|.MAINW8|" type="string" value="Pohyb" /> <!-- Motion detection label -->
+		</Main_Window>
+		<Detect_Dialog>
+			<item id="|.DETD0|" type="string" value="Èakajte..." /> <!-- heading for dialog -->
+			<item id="|.DETD1|" type="string" value="Poèkajte, kým sa nezatvorí okno @x. Potom stlaète tlaèidlo @y." /> <!-- message -->
+			<item id="|.DETD2|" type="string" value="Ok" /> <!-- button label -->
+			<item id="|.DETD3|" type="string" value="H¾adanie web kamery môže trva nieko¾ko minút!" />
+			<item id="|.DETD4|" type="string" value="Naozaj to chcete teraz spusti?" />
+		</Detect_Dialog>
+		<Preview_Window>
+			<item id="|.PREVW0|" type="string" value="Náh¾ad" /> <!-- heading for window -->
+		</Preview_Window>
+		<Capture_Window>
+			<item id="|.CAPTW0|" type="string" value="Záznam" /> <!-- heading for window -->
+			<item id="|.CAPTW1|" type="string" value="Zaznamena!" /> <!-- button label -->
+			<Image_Win>
+				<item id="|.IMGW0|" type="string" value="Obrázok" /> <!-- heading for window -->
+				<item id="|.IMGW1|" type="string" value="Uloži" /> <!-- label: save-button -->
+				<item id="|.IMGW2|" type="string" value="Zatvori" /> <!-- label: close-button -->
+				<item id="|.IMGW3|" type="string" value="Uloži súbor" /> <!-- heading for save-file-dialog -->
+			</Image_Win>
+		</Capture_Window>
+		<Settings>
+			<item id="|.SHEAD0|" type="string" value="Nastavenia" /> <!-- heading for settings window -->
+			<item id="|.SBTN0|" type="string" value="Ok" /> <!-- ok button-label -->
+			<item id="|.SBTN1|" type="string" value="Zruši" /> <!-- cancel button-label -->
+			<item id="|.SBTN2|" type="string" value="Prida" /> <!-- add button-label -->
+			<item id="|.SBTN3|" type="string" value="Vymaza" /> <!-- delete button-label -->
+			<item id="|.SBTN4|" type="string" value="Zruši" /> <!-- clear button-label -->
+			<item id="|.SCAT0|" type="string" value="Kategória:" /> <!-- category-label -->
+			<Language>
+				<item id="|.SLANG0|" type="string" value="Jazyk" /> <!-- name in menu and heading for panel -->
+				<item id="|.SLANG1|" type="string" value="Aktuálne používaný jazyk je:" /> 
+				<item id="|.SLANG2|" type="string" value="Zmeni" /> <!-- button label -->
+				<item id="|.SLANG3|" type="string" value="Jazyk sa nezmení, pokým nestlaèíte tlaèidlo @x" /> <!-- info text -->
+				<item id="|.SLANG4|" type="string" value="Vybra súbor s prekladom" /> <!-- choose file dialog heading -->
+			</Language>
+			<Camera>
+				<item id="|.SCAM0|" type="string" value="Kamera" />  <!-- name in menu and heading for panel -->
+				<item id="|.SCAM1|" type="string" value="Zvoli kameru:" /> 
+				<item id="|.SCAM2|" type="string" value="Zvoli formát videa:" /> 
+				<item id="|.SCAM3|" type="string" value="Zmena formátu videa bude ma vplyv na ve¾kos všetkých výstupov." /> 
+			</Camera>
+      			<Connection>
+				<item id="|.SCON0|" type="string" value="Pripojenie" />  <!-- name in menu and heading for panel -->
+				<item id="|.SCON1|" type="string" value="Verejná IP adresa:" />
+				<item id="|.SCON2|" type="string" value="Získa" />
+				<item id="|.SCON3|" type="string" value="Zisti pri štarte programu." />
+				<item id="|.SCON4|" type="string" value="Zisova každých" />
+				<item id="|.SCON5|" type="string" value="minút." />
+				<item id="|.SCON6|" type="string" value="Použi UPnP na otvorenie portov na routeri." />				
+			</Connection>
+			<Output>
+				<!-- common text -->
+				<item id="|.SOUT0|" type="string" value="Výstup" /> <!-- name in menu -->
+				<item id="|.SOUT1|" type="string" value="Typ:" />
+				<item id="|.SOUT2|" type="string" value="Kvalita obrázku:" />
+				<item id="|.SOUT3|" type="string" value="Interval:" />
+				<item id="|.SOUT4|" type="string" value="sekúnd" />
+				<item id="|.SOUT5|" type="string" value="Port:" />
+				<item id="|.SOUT6|" type="string" value="Ïalšie nastavenia" />
+				<!-- unique text -->
+				<File>
+					<item id="|.SOFILE0|" type="string" value="Súbor" /> <!-- name in menu and heading -->
+					<item id="|.SOFILE1|" type="string" value="Cesta:" />
+					<item id="|.SOFILE2|" type="string" value="Preh¾adáva" /> <!-- button -->
+					<item id="|.SOFILE3|" type="string" value="Uloži ako" />
+					<item id="|.SOFILE4|" type="string" value="Sprievodca skupinou obrázkov" />
+					<item id="|.SOFILE5|" type="string" value="Otvori" />
+					<!-- wizard-->
+					<item id="|.SOFILEWIZ0|" type="string" value="Tento sprievodca Vám pomôže zada správny názov súboru a cestu na vytvorenie skupiny obrázkov." />
+					<item id="|.SOFILEWIZ1|" type="string" value="Vyberte jednu z možností:" />
+					<item id="|.SOFILEWIZ2|" type="string" value="Chcem uloži posledných N obrázkov. (napr. od pic0.jpg po picN.jpg. Najnovší obrázok má najnižšie poradové èíslo.)" />
+					<item id="|.SOFILEWIZ3|" type="string" value="Chcem uloži neobmedzený poèet obrázkov. (Najnovší obrázok má najvyššie poradové èíslo.)" />
+					<item id="|.SOFILEWIZ4|" type="string" value="Vyberte adresár, kde chcete obrázky uklada." />
+					<item id="|.SOFILEWIZ5|" type="string" value="Zvolený adresár:" />
+					<item id="|.SOFILEWIZ6|" type="string" value="Zadajte spoloèný názov súboru pre uložené obrázky:" />
+					<item id="|.SOFILEWIZ7|" type="string" value="Napríklad: Ak zvolíte 'out', obrázky sa budú vola out0.jpg, out1.jpg, out2.jpg atï." />
+					<item id="|.SOFILEWIZ8|" type="string" value="Zvo¾te formát súboru:" />
+					<item id="|.SOFILEWIZ9|" type="string" value="Zvo¾te poèet obrázkov, ktoré zostanú uložené na disku:" />
+					<item id="|.SOFILEWIZ10|" type="string" value="Hotovo! Zvolený názov súboru bude automaticky nastavený v nastaveniach Výstupu do súboru." />
+					<item id="|.SOFILEWIZ11|" type="string" value="Nezabudnite nastavi požadovaný interval." />
+				</File>
+				<Ftp>
+					<item id="|.SOFTP0|" type="string" value="Ftp" /> <!-- name in menu and heading -->
+					<item id="|.SOFTP1|" type="string" value="Ftp server:" />
+					<item id="|.SOFTP2|" type="string" value="Meno:" />
+					<item id="|.SOFTP3|" type="string" value="Heslo:" />
+					<item id="|.SOFTP4|" type="string" value="Adresár:" />
+					<item id="|.SOFTP5|" type="string" value="Meno súboru:" />
+					<item id="|.SOFTP6|" type="string" value="Interval ukladania na server:" />
+					<item id="|.SOFTP7|" type="string" value="Neodporúèa sa, aby ste si tu uložili svoje heslo. Namiesto uloženia hesla nechajte toto pole prázdne. Program sa Vás naò opýta, keï ho bude potrebova." />
+					<item id="|.SOFTP8|" type="string" value="Tichý pokus o pripojenie pri chybe spojenia." />
+					<item id="|.SOFTP9|" type="string" value="Skupina obrázkov" />
+				</Ftp>
+				<Http>
+					<item id="|.SOHTTP0|" type="string" value="Http" /> <!-- name in menu and heading -->
+					<item id="|.SOHTTP1|" type="string" value="URL adresa bude:" />
+					<item id="|.SOHTTP2|" type="string" value="alebo" />
+					<item id="|.SOHTTP3|" type="string" value="Vzh¾ad stránky môžete zmeni editovaním html súborov v @x." />
+				</Http>
+				<Stream>
+					<item id="|.SOSTR0|" type="string" value="Stream" /> <!-- name in menu and heading -->
+					<item id="|.SOSTR1|" type="string" value="Pripoji sa na port:" />
+					<item id="|.SOSTR2|" type="string" value="Dátový port:" />
+					<item id="|.SOSTR3|" type="string" value="Hlavièka:" />
+					<item id="|.SOSTR4|" type="string" value="Pokroèilé" />
+					<item id="|.SOSTR5|" type="string" value="Vynúti si použitie verejnej IP adresy:" />
+					<item id="|.SOSTR6|" type="string" value="URL adresa bude:" />
+					<item id="|.SOSTR7|" type="string" value="Poznámka: Tieto nastavenia nebudú funkgova na Internete! Preèítajte si FAQ." />
+					<item id="|.SOSTR8|" type="string" value="Ve¾kos appletu:" />
+					<item id="|.SOSTR9|" type="string" value="Reálna ve¾kos obrázku" />
+					<item id="|.SOSTR10|" type="string" value="Prija!" />
+					<item id="|.SOSTR11|" type="string" value="Maximálny poèet spojení:" />
+					<item id="|.SOSTR12|" type="string" value="Dátový limit:" />
+					<item id="|.SOSTR13|" type="string" value="Èasový limit:" />
+					<item id="|.SOSTR14|" type="string" value="Frekvencia ImageProducera:" />
+					<item id="|.SOSTR15|" type="string" value="(Vyššie hodnoty fps spôsobia väèšiu záaž CPU)" />
+					<item id="|.SOSTR16|" type="string" value="Prehraj zvuk, keï sa pripojí návštevník." />
+          				<item id="|.SOSTR17|" type="string" value="Ukáza informaènú bublinu, keï sa pripojí návštevník." />
+					<item id="|.SOSTR18|" type="string" value="Typ streamu:" />
+					<item id="|.SOSTR19|" type="string" value="Škálova na:" />
+					<Page_Designer>
+						<item id="|.SOSTRPD0|" type="string" value="Návrh stránky" />
+						<item id="|.SOSTRPD1|" type="string" value="Nadpis:" />
+						<item id="|.SOSTRPD2|" type="string" value="Hlavièka:" />
+						<item id="|.SOSTRPD3|" type="string" value="Farba okraja:" />
+						<item id="|.SOSTRPD4|" type="string" value="Farba pozadia:" />
+						<item id="|.SOSTRPD5|" type="string" value="Obrázok pozadia:" />
+						<item id="|.SOSTRPD6|" type="string" value="Farba textu:" />
+						<item id="|.SOSTRPD7|" type="string" value="Ve¾kos textu:" />
+						<item id="|.SOSTRPD8|" type="string" value="Text stránky:" />
+						<item id="|.SOSTRPD9|" type="string" value="Farba odkazu:" />
+						<item id="|.SOSTRPD10|" type="string" value="Navštívený odkaz:" />
+						<item id="|.SOSTRPD11|" type="string" value="Aktívny odkaz:" />
+						<!-- Dialogs -->
+						<item id="|.SOSTRPDDIA0|" type="string" value="Súbor sa nenachádza v adresári web servera." />
+						<item id="|.SOSTRPDDIA1|" type="string" value="Chcete skopírova súbor do správneho adresára?" />
+						<item id="|.SOSTRPDDIA2|" type="string" value="Skopírova súbor?" />
+						<item id="|.SOSTRPDDIA3|" type="string" value="Cie¾ový súbor už existuje." />
+						<item id="|.SOSTRPDDIA4|" type="string" value="Chcete ho prepísa?" />
+						<item id="|.SOSTRPDDIA5|" type="string" value="Prepísa?" />
+						<item id="|.SOSTRPDDIA6|" type="string" value="Nepodarilo sa skopírova súbor!" />
+						<item id="|.SOSTRPDDIA7|" type="string" value="Aby fungoval Náh¾ad, musíte zapnú výstup streamu." />
+						<item id="|.SOSTRPDDIA8|" type="string" value="Chcete ho teraz zapnú?" />
+						<item id="|.SOSTRPDDIA9|" type="string" value="Zapnú stream?" />
+					</Page_Designer>
+				</Stream>
+			</Output>
+			<Text_Overlay>
+				<item id="|.SOVER0|" type="string" value="Prekladania" /> <!-- name in menu and heading -->
+				<item id="|.SOVER0a|" type="string" value="Poloha:" />
+				<item id="|.SOVER0b|" type="string" value="Farba:" />
+				<item id="|.SOVER0c|" type="string" value="Písmo:" />
+				<item id="|.SOVER1|" type="string" value="Typ:" />
+				<item id="|.SOVER2|" type="string" value="Ve¾kos:" />
+        			<item id="|.SOVER3|" type="string" value="Písmo:" />
+				<item id="|.SOVER4|" type="string" value="Typ:" />
+				<item id="|.SOVER5|" type="string" value="Ve¾kos:" />
+				<item id="|.SOVER6|" type="string" value="Text" /> <!-- displayed on the tabs -->
+				<item id="|.SOVER7|" type="string" value="Rok (4 cifry)" />
+				<item id="|.SOVER8|" type="string" value="Rok (2 cifry)" />
+				<item id="|.SOVER9|" type="string" value="mesiac" />
+				<item id="|.SOVER10|" type="string" value="deò" />
+				<item id="|.SOVER11|" type="string" value="hodiny" />
+				<item id="|.SOVER12|" type="string" value="minúty" />
+				<item id="|.SOVER13|" type="string" value="sekundy" />
+				<item id="|.SOVER13b|" type="string" value="poèet návštevníkov" />
+				<!-- position, vertical -->
+				<item id="|.SOVER14|" type="string" value="Navrchu" />
+				<item id="|.SOVER15|" type="string" value="V strede" />
+				<item id="|.SOVER16|" type="string" value="Dole" />
+				<!-- position, horizontal -->
+				<item id="|.SOVER17|" type="string" value="V¾avo" />
+				<item id="|.SOVER18|" type="string" value="V strede" />
+				<item id="|.SOVER19|" type="string" value="Vpravo" />
+				<!-- colors -->
+				<item id="|.SOVER20|" type="string" value="Èervená" />
+				<item id="|.SOVER21|" type="string" value="Zelená" />
+				<item id="|.SOVER22|" type="string" value="Modrá" />
+				<item id="|.SOVER23|" type="string" value="Žltá" />
+				<item id="|.SOVER24|" type="string" value="Biela" />
+				<item id="|.SOVER25|" type="string" value="Èierna" />
+				<item id="|.SOVER26|" type="string" value="Sivá" />
+				<item id="|.SOVER27|" type="string" value="Zeleno-modrá" />
+				<!-- font type -->
+				<item id="|.SOVER28|" type="string" value="Normálne" />
+				<item id="|.SOVER29|" type="string" value="Lomené" />
+				<item id="|.SOVER30|" type="string" value="Tuèné" />
+				<item id="|.SOVER31|" type="string" value="P:" /> <!-- First letter of the translation of "transparent" -->
+				<item id="|.SOVER32|" type="string" value="Použi pozadie:" />
+				<!-- buttons -->
+				<item id="|.SOVER33|" type="string" value="Náh¾ad" />
+				<item id="|.SOVER34|" type="string" value="Informácie" />
+				<!-- more stuff -->
+				<item id="|.SOVER40|" type="string" value="hodiny (12h formát)" />
+				<item id="|.SOVER41|" type="string" value="mesiace napísané po slovensky" />
+				<item id="|.SOVER42|" type="string" value="dni napísané po slovensky" />
+				<item id="|.SOVER43|" type="string" value="Je možné použi premenné v texte, ktoré budú nahradené dynamickými hodnotami." />
+				<item id="|.SOVER44|" type="string" value="K dispozícii sú nasledovné premenné:" />
+				<item id="|.SOVER45|" type="string" value="mesiace napísané v dynamickom jazyku (@x)" />
+				<item id="|.SOVER46|" type="string" value="dni napísané v dynamickom jazyku (@x)" />
+				<!-- local calendar names -->				
+				<item id="|.SOVERDAY1|" type="string" value="Pondelok" />
+				<item id="|.SOVERDAY2|" type="string" value="Utorok" />
+				<item id="|.SOVERDAY3|" type="string" value="Streda" />
+				<item id="|.SOVERDAY4|" type="string" value="Štvrtok" />
+				<item id="|.SOVERDAY5|" type="string" value="Piatok" />
+				<item id="|.SOVERDAY6|" type="string" value="Sobota" />
+				<item id="|.SOVERDAY7|" type="string" value="Nede¾a" />
+				<item id="|.SOVERMON1|" type="string" value="Január" />
+				<item id="|.SOVERMON2|" type="string" value="Február" />
+				<item id="|.SOVERMON3|" type="string" value="Marec" />
+				<item id="|.SOVERMON4|" type="string" value="Apríl" />
+				<item id="|.SOVERMON5|" type="string" value="Máj" />
+				<item id="|.SOVERMON6|" type="string" value="Jún" />
+				<item id="|.SOVERMON7|" type="string" value="Júl" />
+				<item id="|.SOVERMON8|" type="string" value="August" />
+				<item id="|.SOVERMON9|" type="string" value="September" />
+				<item id="|.SOVERMON10|" type="string" value="Október" />
+				<item id="|.SOVERMON11|" type="string" value="November" />
+				<item id="|.SOVERMON12|" type="string" value="December" />
+			</Text_Overlay>
+      			<Image_Overlay>
+				<item id="|.SIOVER0a|" type="string" value="Obrázok" /> <!-- name in menu -->
+				<item id="|.SIOVER0b|" type="string" value="Prekladanie obrázku" /> <!-- name in settings panel -->
+				<item id="|.SIOVER1|" type="string" value="Obrázok" /> <!-- text on tabs -->
+				<item id="|.SIOVER2|" type="string" value="Zmeni" />
+				<item id="|.SIOVER3|" type="string" value="Odstráni" />
+				<item id="|.SIOVER4|" type="string" value="Prieh¾adnos:" />	
+			</Image_Overlay>
+			<Startup>
+				<item id="|.SSTRT0|" type="string" value="Po spustení" /> <!-- name in menu and heading -->
+				<item id="|.SSTRT1|" type="string" value="Tu môžete nastavi, èo sa má spusti a vykona po spustení Yawcam." />
+				<item id="|.SSTRT2|" type="string" value="Spusti ukladanie do súboru" />
+				<item id="|.SSTRT3|" type="string" value="Spusti ukladanie na FTP" />
+				<item id="|.SSTRT4|" type="string" value="Spusti ukladanie do HTTP" />
+				<item id="|.SSTRT5|" type="string" value="Ukáza náh¾ad" />
+				<item id="|.SSTRT6|" type="string" value="Ukáza konzolu" />
+				<item id="|.SSTRT7|" type="string" value="Ukáza štatistiku" />
+				<item id="|.SSTRT8|" type="string" value="Skry do systrayu pri štarte" />
+				<item id="|.SSTRT9|" type="string" value="Ukáza úvodnú obrazovku" />
+				<item id="|.SSTRT10|" type="string" value="Spusti stream" />
+				<item id="|.SSTRT11|" type="string" value="Ukáza návštevníkov" />
+				<item id="|.SSTRT12|" type="string" value="Zisova nové verzie" />
+				<item id="|.SSTRT13|" type="string" value="Uloži súbor so záznamami" />
+        			<item id="|.SSTRT14|" type="string" value="Spusti detekciu pohybu" />
+			</Startup>
+			<Offline_Image>
+				<item id="|.SOFFIMG0|" type="string" value="Offline obrázok" />
+				<item id="|.SOFFIMG1|" type="string" value="Uloži offline obrázky pri prechode do režimu offline do:" />
+				<item id="|.SOFFIMG2|" type="string" value="Zvolený obrázok:" />
+				<item id="|.SOFFIMG3|" type="string" value="Uloži tiež pri ukonèení Yawcam. (Neskorý koniec)" />
+				<item id="|.SOFFIMG4|" type="string" value="Vybra obrázok" />
+			</Offline_Image>
+			<Password>
+				<item id="|.SPASS0|" type="string" value="Heslo" />
+				<item id="|.SPASS1|" type="string" value="Použi heslo v applete streamu." />
+				<item id="|.SPASS2|" type="string" value="potvrdi" />
+				<item id="|.SPASS3|" type="string" value="Pozor! Všetky heslá budú vymazané!" />
+				<item id="|.SPASS4|" type="string" value="Ste si istý?" />
+				<item id="|.SPASS5|" type="string" value="Heslo pre @x bude zmazané!" />
+				<item id="|.SPASS6|" type="string" value="Nebol zvolený žiadny užívate¾!" />
+				<item id="|.SPASS7|" type="string" value="Zvo¾te užívate¾a a znova stlaète @x." />
+				<item id="|.SPASS8|" type="string" value="Nemôžem vykona" />
+				<item id="|.SPASS9|" type="string" value="Prihlásenie neúspešné:" />
+				<item id="|.SPASS10|" type="string" value="Prida užívate¾a/heslo" />
+				<item id="|.SPASS11|" type="string" value="Meno" />
+				<item id="|.SPASS12|" type="string" value="Heslo" />
+				<item id="|.SPASS13|" type="string" value="Potvrdi heslo" />
+				<item id="|.SPASS14|" type="string" value="Práve ste povolili heslo tak pre stream applet, ako aj stream oznamy!" />
+				<item id="|.SPASS15|" type="string" value="Toto asi nechcete ;-)" />
+				<item id="|.SPASS16|" type="string" value="Napriek tomu pokraèova?" />
+				<item id="|.SPASS17|" type="string" value="Ste si istý?" />
+			</Password>
+			<Announcements>
+				<item id="|.SANN0|" type="string" value="Oznámenia" /> <!-- name in menu and heading -->
+				<item id="|.SANN1|" type="string" value="Tento panel umožòuje nastavenie oznamov, ktoré sa odošlú pri pripojení napr. webcam komunite." />
+				<item id="|.SANN2|" type="string" value="Oznam o prejdení do režimu online:" />
+				<item id="|.SANN3|" type="string" value="Oznam o prejdení do režimu offline:" />
+				<item id="|.SANN4|" type="string" value="Odosla oznam, keï prechádzam do režimu online/offline na:" />
+				<item id="|.SANN5|" type="string" value="Náh¾ad" />
+				<item id="|.SANN6|" type="string" value="Informácie" />
+				<item id="|.SANN7|" type="string" value="Oznamy:" />
+				<item id="|.SANN8|" type="string" value="Online:" />
+				<item id="|.SANN9|" type="string" value="Offline:" />
+				<item id="|.SANN10|" type="string" value="Oznamy sú obyèajne http požiadavky." />
+				<item id="|.SANN11|" type="string" value="Webcam komunita Vám dá ïalšie informácie, aký formát má ma daný oznam." />
+				<item id="|.SANN12|" type="string" value="Pri vytváraní oznamu môžete používa niektoré premenné:" />
+				<item id="|.SANN13|" type="string" value="URL na zabudovaný web server programu Yawcam (http)" />
+				<item id="|.SANN14|" type="string" value="URL na stream programu Yawcam (stream)" />
+				<item id="|.SANN15|" type="string" value="Pozor!" />
+				<item id="|.SANN16|" type="string" value="Nebolo možné odosla oznámenie o režime online!" />
+				<item id="|.SANN17|" type="string" value="Nebolo možné odosla oznámenie o režime offline!" />
+				<item id="|.SANN18|" type="string" value="Skontrolujte nastavenia" />
+			</Announcements>
+      			<Scheduler>
+				<item id="|.SSCHED0|" type="string" value="Plánovaè" /> <!-- name in menu and heading -->
+				<item id="|.SSCHED1|" type="string" value="Zapnú plánovaè" />
+				<item id="|.SSCHED2|" type="string" value="Zapnutý" />
+				<item id="|.SSCHED3|" type="string" value="Vypnutý" />
+			</Scheduler>
+		</Settings>
+    		<Motion_Detection>
+		
+		</Motion_Detection>
+		<About>
+			<item id="|.ABW0|" type="string" value="O programe Yawcam" /> <!-- heading for window -->
+			<item id="|.ABW1|" type="string" value="Preklad:" />
+			<item id="|.ABW2|" type="string" value="Vïaka:" />
+			<item id="|.ABW3|" type="string" value="Ok" /> <!-- button -->
+		</About>
+		<Pass_Prompt>
+			<item id="|.PSSP0|" type="string" value="Prihlásenie" /> <!-- heading for window -->
+			<item id="|.PSSP1|" type="string" value="Yawcam sa nemohol prihlási na ftp so zadaným menom a heslom! Zadajte správne hodnoty:" />
+			<item id="|.PSSP2|" type="string" value="Meno:" />
+			<item id="|.PSSP3|" type="string" value="Heslo:" />
+			<item id="|.PSSP4|" type="string" value="Uloži heslo. (Nie je bezpeèné!)" />
+		</Pass_Prompt>
+    		<TrayIcon_popmenu>
+			<item id="|.TIM0|" type="string" value="Skry/Ukáza" />
+			<item id="|.TIM1|" type="string" value="Vždy navrchu" />
+			<item id="|.TIM2|" type="string" value="Zapnutý" />
+			<item id="|.TIM3|" type="string" value="Súbor" />
+			<item id="|.TIM4|" type="string" value="Ftp" />
+			<item id="|.TIM5|" type="string" value="Http" />
+			<item id="|.TIM6|" type="string" value="Stream" />
+			<item id="|.TIM7|" type="string" value="Nastavenia" />
+			<item id="|.TIM8|" type="string" value="Pomoc" />
+			<item id="|.TIM9|" type="string" value="Koniec" />
+			<item id="|.TIM10|" type="string" value="Detekcia pohybu" />
+			<item id="|.TIM11|" type="string" value="Plánovaè" />
+		</TrayIcon_popmenu>
+		<Viewers>
+			<item id="|.VIEWF0|" type="string" value="Návštevníci:" /> <!-- label for number of viewers -->
+			<item id="|.VIEWF1|" type="string" value="IP" />
+			<item id="|.VIEWF2|" type="string" value="Názov hosta" />
+			<item id="|.VIEWF3|" type="string" value="Èas" />
+			<item id="|.VIEWF4|" type="string" value="Odoslané (kB)" />
+			<item id="|.VIEWF5|" type="string" value="Návštevníci streamu" /> <!-- window title -->
+      			<item id="|.VIEWF6|" type="string" value="Vyhodi!" />
+			<item id="|.VIEWF7|" type="string" value="Zoznam vylúèených návštevníkov" />
+			<item id="|.VIEWF8|" type="string" value="Vylúèi!" />
+			<item id="|.VIEWF9a|" type="string" value="Vylúèi návštevníka?" />
+			<item id="|.VIEWF9b|" type="string" value="Ste si istý?" />
+			<item id="|.VIEWF10|" type="string" value="Zruši vylúèenie" />
+			<item id="|.VIEWF11a|" type="string" value="Prida IP adresu" />
+			<item id="|.VIEWF11b|" type="string" value="Zada IP adresu, ktorá bude vylúèená:" />
+			<item id="|.VIEWF12|" type="string" value="Vylúèené IP adresy:" />
+		</Viewers>
+    		<ImgToMov>
+			<item id="|.IMGTM0|" type="string" value="Obrázky do videa" /> <!-- title -->
+			<item id="|.IMGTM1|" type="string" value="Tento sprievodca Vám pomôže zlúèi obrázky do videa." />
+			<item id="|.IMGTM2|" type="string" value="Do videa budú zahrnuté obrázky z nasledujúceho zoznamu:" />
+			<item id="|.IMGTM3|" type="string" value="Opaèné poradie" />
+			<item id="|.IMGTM4|" type="string" value="Prida obrázky" />
+			<item id="|.IMGTM5|" type="string" value="Poèet obrázkov za sekundu:" />
+			<item id="|.IMGTM6|" type="string" value="fps" /> <!-- fps (frames per second) -->
+			<item id="|.IMGTM7|" type="string" value="Súbor videa:" />
+			<item id="|.IMGTM8|" type="string" value="Vytvori video" />
+			<item id="|.IMGTM9|" type="string" value="Musíte vybra položku zo zoznamu." />
+			<item id="|.IMGTM10|" type="string" value="Musíte prida obrázky do zoznamu!" />
+			<item id="|.IMGTM11a|" type="string" value="Poèet obrázkov za sekundu musí by celé èíslo." />
+			<item id="|.IMGTM11b|" type="string" value="1 - 90 sú platné èísla." />
+			<item id="|.IMGTM12|" type="string" value="Musíte zvoli názov videa." />
+			<item id="|.IMGTM13|" type="string" value="Vytváram video" />
+			<item id="|.IMGTM14|" type="string" value="Pridávam obrázky" />
+			<item id="|.IMGTM15|" type="string" value="Video môžete nájs tu:" />
+			<item id="|.IMGTM16|" type="string" value="Hotovo" />
+			<item id="|.IMGTM17|" type="string" value="Zaznamenávam video" />			
+			<item id="|.IMGTM18|" type="string" value="Kontrolujem obrázky" />
+		</ImgToMov>
+		<Popup_Errors>
+			<item id="|.POPER0|" type="string" value="Chyba" /> <!-- heading for all error popups -->
+			<item id="|.POPER1a|" type="string" value="Neznámy host!" />
+			<item id="|.POPER1b|" type="string" value="Skontrolujte adresu v nastaveniach ftp." />
+			<item id="|.POPER2a|" type="string" value="Spojenie odmietnuté!" />
+			<item id="|.POPER2b|" type="string" value="Skontrolujte nastavenia ftp." />
+			<item id="|.POPER3a|" type="string" value="Nemáte dostatoèné práva!" />
+			<item id="|.POPER3b|" type="string" value="Skontrolujte, èi máte dostatoèné práva na ukladanie súborov na tento ftp server." />
+			<item id="|.POPER4|" type="string" value="Chybný xml súbor!" />
+			<item id="|.POPER5|" type="string" value="Súbor sa nenašiel:" />
+			<!-- input errors -->
+			<item id="|.POPER6|" type="string" value="Prosím, zmeòte" />
+			<item id="|.POPER7a|" type="string" value="Zlá hodnota intervalu!" />
+			<item id="|.POPER7b|" type="string" value="Pole môže obsahova len èísla. (napr.: 5.5 alebo 10)" />
+			<item id="|.POPER8a|" type="string" value="Zlá hodnota portu!" />
+			<item id="|.POPER8b|" type="string" value="Pole môže obsahova len èísla. (napr.: 21)" />
+			<item id="|.POPER9|" type="string" value="Pole môže obsahova len èísla. (napr.: 8888)" />
+			<item id="|.POPER10|" type="string" value="Port @x sa už používa." />
+			<item id="|.POPER11|" type="string" value="Zvo¾te iný port." />
+			<item id="|.POPER12a|" type="string" value="Adresár neexistuje!" />
+			<item id="|.POPER12b|" type="string" value="Presvedète sa, že zadaný adresár v nastaveniach ftp naozaj existuje na ftp serveri." />
+			<!-- misc -->
+			<item id="|.POPERLANG0|" type="string" value="Prepáète" />
+			<item id="|.POPERLANG1|" type="string" value="Táto verzia Yawcam neobsahuje súbor s Pomocou." />
+			<item id="|.POPERLANG2|" type="string" value="Aktualizácie h¾adajte na www.yawcam.com." />
+			<!-- camera errors -->
+			<item id="|.POPERCAM0|" type="string" value="Yawcam sa nemohol pripoji na web kameru." />
+			<item id="|.POPERCAM1|" type="string" value="Presvedète sa, èi ho nepoužíva iná aplikácia, alebo zvo¾te iný." />
+			<item id="|.POPERCAM2|" type="string" value="Ak je zoznam kamier prázdny, stlaète @x a následne @y v menu @z." />
+			<!-- File-output errors -->
+			<item id="|.POPERFILE0|" type="string" value="Nebolo možné uloži súbor: @x" />
+			<item id="|.POPERFILE1|" type="string" value="Presvedète sa, èi daný adresár skutoène existuje! (Ak nie, zmeòte nastavenia)" />
+			<!-- More Ftp-output errors -->
+			<item id="|.POPERFTP0|" type="string" value="Nebolo možné uloži doèasný súbor!" />
+			<item id="|.POPERFTP1|" type="string" value="Presvedète sa, èi existuje adresár @x. (Ak nie, vytvorte ho)" />
+			<!-- add password error -->
+			<item id="|.POPERPASADD0|" type="string" value="Musíte zada prihlasovacie meno!" />
+			<item id="|.POPERPASADD1|" type="string" value="Heslá nesúhlasia." />
+			<item id="|.POPERPASADD2|" type="string" value="Skúste znova!" />
+			<item id="|.POPERPASADD3|" type="string" value="Heslo nemôže by prázdne!" />
+			<!-- stream -->
+			<item id="|.POPERSTRM0|" type="string" value="Chyba detekcie IP adresy!" />
+			<item id="|.POPERSTRM1|" type="string" value="Polia môžu obsahova len celé èísla." />
+		</Popup_Errors>
+	</GUI>
+	<Console>
+		<item id="|.CNSPR0|" type="string" value="Yawcam spustený" />
+		<item id="|.CNSPR1|" type="string" value="Nasavenia nahraté" />
+		<item id="|.CNSPR2|" type="string" value="Nastavenia uložené" />
+		<item id="|.CNSPR3|" type="string" value="Výstup do súboru spustený" />
+		<item id="|.CNSPR4|" type="string" value="Výstup do súboru zastavený" />
+		<item id="|.CNSPR5|" type="string" value="Výstup na FTP spustený" />
+		<item id="|.CNSPR6|" type="string" value="Výstup na FTP zastavený" />
+		<item id="|.CNSPR7|" type="string" value="Výstup do HTTP spustený" />
+		<item id="|.CNSPR8|" type="string" value="Výstup do HTTP zastavený" />
+		<item id="|.CNSPR9|" type="string" value="Formát obrázku: @x" />
+		<item id="|.CNSPR10|" type="string" value="Používa sa zariadenie: @x" />
+		<item id="|.CNSPR11|" type="string" value="Jazyk: @x" />
+		<item id="|.CNSPR12|" type="string" value="Yawcam je skyrtý" />
+		<item id="|.CNSPR13|" type="string" value="Yawcam je vidite¾ný" />
+		<item id="|.CNSPR14|" type="string" value="H¾adám web kamery" />
+		<item id="|.CNSPR15|" type="string" value="Ïakujeme!" />
+		<item id="|.CNSPR16|" type="string" value="Súbor bol uložený" />
+		<item id="|.CNSPR17|" type="string" value="Výstup na Stream spustený" />
+		<item id="|.CNSPR18|" type="string" value="Výstup na Stream zastavený" />
+		<item id="|.CNSPR19|" type="string" value="Súbor pomocníka sa nachádza v www." />
+		<item id="|.CNSPR20|" type="string" value="Port @x sa už používa!" />
+		<item id="|.CNSPR21|" type="string" value="Nepodarilo sa pripoji na ftp server!" />
+	</Console>
+</yawcam_lang>

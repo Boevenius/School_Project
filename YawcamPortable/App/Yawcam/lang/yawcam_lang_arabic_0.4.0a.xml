@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+
+<!--  
+*	Language file for yawcam
+*	More language files can be found at: www.yawcam.com	
+*
+*	Translation instructions:	
+*	1)	Letters behind a '@'
+*		( for example @x ) are variables and will be replaced with 
+*		something else in the real program.
+*
+*	2)	The option 'Language' in the help menu must also 
+*		contain the English word "language" in the translation.
+*		So if the translation of "language" is "foo", then
+*		the label in the menu should be: "Foo/Language..."
+*
+*	3)	In the <lang_version> section: 
+*		"LV1" is the version number of yawcam that this 
+*			language file is written for. (Should be something 
+*			like 0.1)
+*		"LV2" is the version letter of the language file. Every new
+*			translation for a new version of yawcam should have the 
+*			version letter 'a'. When updates to the language file are 
+*			made change to the following letter. (a to b, b to c, and so on)
+*
+*	4)	In the <translator> section, please fill in your name and e-mail.
+*       If you are updating a translation, keep the old name and add your name behind a ;
+*       It will look somehting like this: "trans1 (trans1@email.com);trans2 (trans2@email.com)"
+*
+*	5)	An <item id="  " ... > tag must always be on one row! Never insert 
+*		a line break, even if the text is really long.
+*
+*	6)	Translations can be mailed to translations@yawcam.com
+*			
+*	7)	Have fun! And Thanks for contributing! //Magnus Lundvall
+*
+--> 
+
+<yawcam_lang>
+	<misc>
+		<language>
+			<!-- Change to the current language -->
+			<item id="|.L1|" type="string" value="Arabic" />
+		</language>
+		<translator>
+			<!-- Also include e-mail -->
+			<item id="|.T1|" type="string" value="Abdussalam Almansour (cinema4d2009@hotmail.com)" /> <!-- Replace with your own name and e-mail -->
+		</translator>
+		<lang_version>
+			<!-- The version number should follow the standard described above! -->
+			<item id="|.LV1|" type="string" value="0.4.0" /> <!-- Yawcam version -->	
+			<item id="|.LV2|" type="string" value="a" /> <!-- Language file version -->
+		</lang_version>
+	</misc>
+	<GUI>
+		<Menu>
+			<File>
+				<item id="|.MF0|" type="string" value="ãáÝ" />
+				<item id="|.MF1|" type="string" value="Êãßíä ÇáãáÝ" />
+				<item id="|.MF2|" type="string" value="Êãßíä ÈÑæÊæßæá äÞá ÇáãáÝÇÊ" />
+				<item id="|.MF3|" type="string" value="Http Êãßíä ÈÑæÊæßæá" />
+				<item id="|.MF4|" type="string" value="Êãßíä ÚãáíÉ ÇáÈË" />
+				<item id="|.MF5|" type="string" value="ÎÑæÌ" />
+				<item id="|.MF6|" type="string" value="ÊÍæíá ÇáÕæÑ Çáì ÝíÏíæ..." />
+				<item id="|.MF7|" type="string" value="Êãßíä ãÓÊÔÚÑ ÇáÍÑßÉ" />
+			</File>
+			<View>
+				<item id="|.MV0|" type="string" value="ÚÑÖ" />
+				<item id="|.MV1|" type="string" value="ÚáÇãÉ ÊÈæíÈ áæÍÉ ÇáÊÍßã" />
+				<item id="|.MV2|" type="string" value="ÚáÇãÉ ÊÈæíÈ æÍÏÉ ÇáÊÔÛíá" />
+				<item id="|.MV3|" type="string" value="ÇÎÝÇÁ ÚäÏ ÈÏÁ ÇáÊÔÛíá" />
+				<item id="|.MV4|" type="string" value="ÇÎÝÇÁ ÇáÇä" />
+				<item id="|.MV5|" type="string" value="ÏÇÆãÇ Ýí ÇáÇÚáì" />
+				<item id="|.MV6|" type="string" value="æÖÚ ÇáÊÎÝí" />
+				<item id="|.MV7|" type="string" value="æÖÚ ÇáÊÎÝí ÚäÏ ÈÏÁ ÇáÊÔÛíá" />
+				<item id="|.MV8|" type="string" value="ÇáÊÎÝí ÇáÂä" />
+			</View>
+			<Settings>
+				<item id="|.MS0|" type="string" value="ÇÚÏÇÏÇÊ" />
+				<item id="|.MS1|" type="string" value="ÇáÊÚÑÝ Úáì ÇáßÇãíÑÇ..." />
+				<item id="|.MS2|" type="string" value="ÇÚÏÇÏÇÊ ÇáÊÍÑíÑ..." />
+				<item id="|.MS3|" type="string" value="ÇáÌåÇÒ" />
+				<item id="|.MS4|" type="string" value="áÇ ÔíÁ" />
+			</Settings>
+			<Window>
+				<item id="|.MW0|" type="string" value="äÇÝÐÉ" />
+				<item id="|.MW1|" type="string" value="ãÚÇíäÉ" />
+				<item id="|.MW2|" type="string" value="ÇáÊÞÇØ" />
+				<item id="|.MW3|" type="string" value="æÍÏÉ ÇáÊÔÛíá" />
+				<item id="|.MW4|" type="string" value="ÇÍÕÇÆíÇÊ" />
+				<item id="|.MW5|" type="string" value="ÇáãÔÇåÏæä" />
+				<item id="|.MW6|" type="string" value="ãÓÊÔÚÑ ÇáÍÑßÉ" />
+			</Window>
+			<Help>
+				<item id="|.MH0|" type="string" value="ãÓÇÚÏÉ" />
+				<item id="|.MH1|" type="string" value="ÇáãÍÊæì..." />
+				<item id="|.MH2|" type="string" value="language/ÇááÛÉ..." /> <!-- Also add the enlish word language, se instructions above! -->				
+				<item id="|.MH3|" type="string" value="ÒíÇÑÉ ÇáãæÞÚ" />
+				<item id="|.MH4|" type="string" value="Úä ÇáÈÑäÇãÌ" />
+				<item id="|.MH5|" type="string" value="ÊÈÑÚ " />
+				<item id="|.MH6|" type="string" value="åá ÃäÇ ãÊÕá¿" />
+				<item id="|.MH7|" type="string" value="ãÇåæ ÇáÚäæÇä ÇáÎÇÕ Èí¿" />
+				<item id="|.MH8|" type="string" value="åá ÊÑíÏ Êßæíä ÌåÇÒ ÇáÊæÌíå/ ÇáÑÇæÊÑ¿" />
+			</Help>
+		</Menu>
+		<Main_Window>
+			<item id="|.MAINW0|" type="string" value="áæÍÉ ÇáÊÍßã" /> <!-- name on the control panel tab -->
+			<item id="|.MAINW1|" type="string" value="æÍÏÉ ÇáÊÔÛíá" /> <!-- name on the console tab -->
+			<item id="|.MAINW2|" type="string" value="ãáÝ" /> <!-- File-output label -->
+			<item id="|.MAINW3|" type="string" value="Ftp" /> <!-- Ftp-output label -->
+			<item id="|.MAINW4|" type="string" value="Http" /> <!-- Http-output label -->
+			<item id="|.MAINW5|" type="string" value="ÇáÈË" /> <!-- Stream-output label -->
+			<item id="|.MAINW6|" type="string" value="Êãßíä" /> <!-- button text -->
+			<item id="|.MAINW7|" type="string" value="ÊÚØíá" /> <!-- button text -->
+			<item id="|.MAINW8|" type="string" value="ÇáÍÑßÉ" /> <!-- Motion detection label -->
+		</Main_Window>
+		<Detect_Dialog>
+			<item id="|.DETD0|" type="string" value="ÇáÑÌÇÁ ÇáÇäÊÙÇÑ" /> <!-- heading for dialog -->
+			<item id="|.DETD1|" type="string" value="@y Ëã ÇÙÛØ Úáì @x ÇáÑÌÇÁ ÇáÇäÊÙÇÑ ÍÊì íÊã ÇÛáÇÞ äÇÝÐÉ" /> <!-- message -->
+			<item id="|.DETD2|" type="string" value="ãæÇÝÞ" /> <!-- button label -->
+			<item id="|.DETD3|" type="string" value="ÞÏ íÓÊÛÑÞ ãÓÊÔÚÑ ÇáßÇãíÑÇ ÚÏÉ ÏÞÇÆÞ" />
+			<item id="|.DETD4|" type="string" value="åá ÃäÊ ãÊÃßÏ ãä ÊÔÛíáå ÇáÇä¿" />
+		</Detect_Dialog>
+		<Preview_Window>
+			<item id="|.PREVW0|" type="string" value="ãÚÇíäÉ" /> <!-- heading for window -->
+		</Preview_Window>
+		<Capture_Window>
+			<item id="|.CAPTW0|" type="string" value="ÇáÊÞÇØ" /> <!-- heading for window -->
+			<item id="|.CAPTW1|" type="string" value="ÇáÊÞÇØ" /> <!-- button label -->
+			<Image_Win>
+				<item id="|.IMGW0|" type="string" value="ÕæÑÉ" /> <!-- heading for window -->
+				<item id="|.IMGW1|" type="string" value="ÍÝÙ..." /> <!-- label: save-button -->
+				<item id="|.IMGW2|" type="string" value="ÇÛáÇÞ" /> <!-- label: close-button -->
+				<item id="|.IMGW3|" type="string" value="ÍÝÙ ÇáãáÝ..." /> <!-- heading for save-file-dialog -->
+			</Image_Win>
+		</Capture_Window>
+		<Settings>
+			<item id="|.SHEAD0|" type="string" value="ÇÚÏÇÏÇÊ" /> <!-- heading for settings window -->
+			<item id="|.SBTN0|" type="string" value="ãæÇÝÞ" /> <!-- ok button-label -->
+			<item id="|.SBTN1|" type="string" value="ÇáÛÇÁ" /> <!-- cancel button-label -->
+			<item id="|.SBTN2|" type="string" value="ÇÖÇÝÉ" /> <!-- add button-label -->
+			<item id="|.SBTN3|" type="string" value="ÍÐÝ" /> <!-- delete button-label -->
+			<item id="|.SBTN4|" type="string" value="ãÓÍ" /> <!-- clear button-label -->
+			<item id="|.SCAT0|" type="string" value="ÝÆÉ:" /> <!-- category-label -->
+			<Language>
+				<item id="|.SLANG0|" type="string" value="áÛÉ" /> <!-- name in menu and heading for panel -->
+				<item id="|.SLANG1|" type="string" value="ÇááÛÉ ÇáÍÇáíÉ åí:" /> 
+				<item id="|.SLANG2|" type="string" value="ÊÛííÑ..." /> <!-- button label -->
+				<item id="|.SLANG3|" type="string" value="áÇÍÙ Ãä ÇááÛÉ áä ÊÊÛíÑ ÇáÇ ÚäÏ ÇáÖÛØ Úáì @x" /> <!-- info text -->
+				<item id="|.SLANG4|" type="string" value="ÇÎÊÑ ãáÝ ÇááÛÉ..." /> <!-- choose file dialog heading -->
+			</Language>
+			<Camera>
+				<item id="|.SCAM0|" type="string" value="ÇáßÇãíÑÇ" />  <!-- name in menu and heading for panel -->
+				<item id="|.SCAM1|" type="string" value="ÇÎÊÑ ÇáßÇãíÑÇ:" /> 
+				<item id="|.SCAM2|" type="string" value="ÇÎÊÑ ÕíÛÉ ÇáÝíÏíæ:" /> 
+				<item id="|.SCAM3|" type="string" value="ãáÇÍÙÉ/ ÓÊÄËÑ ÇáÕíÛÉ ÇáãÎÊÇÑÉ åäÇ Úáì ÍÌã ÇáÕæÑÉ Ýí ÌãíÚ ÇäæÇÚ ÚãáíÇÊ ÇáÈË" /> 
+			</Camera>
+			<Connection>
+				<item id="|.SCON0|" type="string" value="ÇÊÕÇá" />  <!-- name in menu and heading for panel -->
+				<item id="|.SCON1|" type="string" value="ÚäæÇä Âí Èí ÚÇã" />
+				<item id="|.SCON2|" type="string" value="ÇáÍÕæá Úáì" />
+				<item id="|.SCON3|" type="string" value="ÇáßÔÝ Úä ÈÏÁ ÇáÊÔÛíá" />
+				<item id="|.SCON4|" type="string" value="ÇáßÔÝ ßá" />
+				<item id="|.SCON5|" type="string" value="ÏÞÇÆÞ" />
+				<item id="|.SCON6|" type="string" value="  áÝÊÍ ÇáãäÇÝÐ Ýí ÇáÑÇæÊÑ UPNP ÇÓÊÎÏã " />				
+			</Connection>
+			<Output>
+				<!-- common text -->
+				<item id="|.SOUT0|" type="string" value="ÇáÈË" /> <!-- name in menu -->
+				<item id="|.SOUT1|" type="string" value="ÇáäæÚ" />
+				<item id="|.SOUT2|" type="string" value="ÌæÏÉ ÇáÕæÑÉ" />
+				<item id="|.SOUT3|" type="string" value="ÇáãÏÉ ÇáÝÇÕáÉ" />
+				<item id="|.SOUT4|" type="string" value="ËæÇäí" />
+				<item id="|.SOUT5|" type="string" value="ãäÝÐ" />
+				<item id="|.SOUT6|" type="string" value="ÇÚÏÇÏÇÊ ÇÖÇÝíÉ" />
+				<!-- unique text -->
+				<File>
+					<item id="|.SOFILE0|" type="string" value="ãáÝ" /> <!-- name in menu and heading -->
+					<item id="|.SOFILE1|" type="string" value="ãÓÇÑ:" />
+					<item id="|.SOFILE2|" type="string" value="ÇÓÊÚÑÇÖ..." /> <!-- button -->
+					<item id="|.SOFILE3|" type="string" value="ÍÝÙ ßÜ..." />
+					<item id="|.SOFILE4|" type="string" value="Ïáíá ãÌãæÚÉ ÇáÕæÑ" />
+					<item id="|.SOFILE5|" type="string" value="ÝÊÍ..." />
+					<!-- wizard-->
+					<item id="|.SOFILEWIZ0|" type="string" value="ÓíÓÇÚÏß åÐÇ ÇáÏáíá Úáì ßÊÇÈÉ ÇÓã ÇáãáÝ ÇáÕÍíÍ Ýí ÇáãÓÇÑ ÇáÕÍíÍ ááÍÕæá Úáì ãÌãæÚÉ ÇáÕæÑ" />
+					<item id="|.SOFILEWIZ1|" type="string" value="ÍÏÏ ÎíÇÑ æÇÍÏ" />
+					<item id="|.SOFILEWIZ2|" type="string" value="ÇÑíÏ ÍÝÙ ÂÎÑ () ÕæÑ/ ãËÇá: ãä ÕæÑÉ ÑÞã () Çáì ÕæÑÉ ÑÞã() ÈÍíË Êßæä ÇáÕæÑÉ ÇáÇÎíÑÉáåÇ ÇáÚÏÏ ÇáÃÞá (i.e. pic0.jpg to picX.jpg, where the latest image has the lowest number.)" />
+					<item id="|.SOFILEWIZ3|" type="string" value="ÇÑíÏ ÍÝÙ ÚÏÏ áÇ ãÍÏæÏ ãä ÇáÕæÑ ãÚ ÒíÇÏÉ ÇáÚÏÏ Ýí ÇÓã ÇáãáÝ/ ÂÎÑ ÕæÑÉ íßæä  áåÇ ÃÚáì ÑÞã" />
+					<item id="|.SOFILEWIZ4|" type="string" value="ÇÎÊÑ ãÇßä ÍÝÙ ÇáÕæÑ" />
+					<item id="|.SOFILEWIZ5|" type="string" value="ãßÇä ÍÝÙ ÇáÕæÑ ÇáÐí Êã ÇÎÊíÇÑå" />
+					<item id="|.SOFILEWIZ6|" type="string" value="ÃÏÎá ÇÓã ÇáãáÝ æÇáÐí ÓÊÍæíå ÌãíÚ ÇáãáÝÇÊ ÇáãÍÝæÙÉ" />
+					<item id="|.SOFILEWIZ7|" type="string" value="out0.jpg, out1.jpg, out2.jpg ãËÇá/ ÇÐÇ ßÊÈÊ ÇÓã ÇáãáÝ ÇæÊ ÈÇááÛÉ ÇáÇäÌáíÒíÉ ÝÇä ÇáãáÝÇÊ ÓíÊã ÊÓãíÊåÇ ßÇáÊÇáí " />
+					<item id="|.SOFILEWIZ8|" type="string" value="ÍÏÏ ÕíÛ ÇáÕæÑ ÇáÊí ÊÑíÏ ÇÓÊÎÏÇãåÇ" />
+					<item id="|.SOFILEWIZ9|" type="string" value="ÇÎÊÑ ÚÏÏ ÇáÕæÑ ÇáÊí ÊÑíÏ ÇÈÞÇÆåÇ" />
+					<item id="|.SOFILEWIZ10|" type="string" value="ÇäÊåì/ ÓíÊã ÇÏÎÇá ÇÓã ÇáãáÝ ÇáãØáæÈ Ýí ÇáãÓÇÑ ÇáãæÌæÏ Ýí ÞÇÆãÉ ÇÚÏÇÏÇÊ ÇáãáÝ" />
+					<item id="|.SOFILEWIZ11|" type="string" value="áÇ ÊäÓì ÇÏÎÇá ÇáÝÇÕá ÇáÒãäí" />
+				</File>
+				<Ftp>
+					<item id="|.SOFTP0|" type="string" value="Ftp" /> <!-- name in menu and heading -->
+					<item id="|.SOFTP1|" type="string" value="Ftp ÓíÑÝÑ" />
+					<item id="|.SOFTP2|" type="string" value="ÇÓã ÇáãÓÊÎÏã:" />
+					<item id="|.SOFTP3|" type="string" value="ßáãÉ ÇáãÑæÑ:" />
+					<item id="|.SOFTP4|" type="string" value="ãßÇä ÇáÍÝÙ" />
+					<item id="|.SOFTP5|" type="string" value="ÇÓã ÇáãáÝ:" />
+					<item id="|.SOFTP6|" type="string" value="ÑÝÚ ÇáÝÇÕá ÇáÒãäí" />
+					<item id="|.SOFTP7|" type="string" value="ãáÇÍÙÉ/ áÇ íäÕÍ ÈÍÝÙ ßáãÉ ÇáãÑæÑ åäÇ æÈÇáãÞÇÈá ÇÌÚá ÇáÝÑÇÛ ÇáãÎÕÕ áßáãÉ ÇáãÑæÑ ÝÇÑÛ æÓíØáÈåÇ ãäß ÇáÈÑäÇãÌ ÚäÏ ÇáÍÇÌÉ ÇáíåÇ" />
+					<item id="|.SOFTP8|" type="string" value="ÎØÃ Ýí ãÚÇæÏÉ ÇáÅÊÕÇá" />
+					<item id="|.SOFTP9|" type="string" value="ãÌãæÚÉ ÇáÕæÑ" />
+					<item id="|.SOFTP10|" type="string" value="ÎØÃ Ýí ÇáãÕÇÏÞÉ" />
+					<item id="|.SOFTP11|" type="string" value="ÇáÈÞÇÁ ãÊÕáÇò" />
+					<item id="|.SOFTP12|" type="string" value="ÚÏã ÞØÚ ÇáÇÊÕÇá ÚäÏ ÇáÇäÊåÇÁ ãä ÑÝÚ ÇáÕæÑÉ" />
+					<item id="|.SOFTP13|" type="string" value="chmod ãáÝ ÇáÊÕÑíÍ" />
+					<item id="|.SOFTP14|" type="string" value="ÇÓÊÎÏã äãØ ÈÑæÊæßæá äÞá ãáÝÇÊ ãÚÑæÝ" />
+					<item id="|.SOFTP15|" type="string" value="ÇÓÊÎÏÇã ÇÊÕÇá ãÔÝÑ" />
+					<item id="|.SOFTP16|" type="string" value="FTPS (Ftp over implicit TLS/SSL)" />
+					<item id="|.SOFTP17|" type="string" value="FTPES (Ftp over explicit TLS/SSL)" />
+					<item id="|.SOFTP18|" type="string" value="ftp ÇÚÏÇÏÇÊ ãÊÞÏÉ áÈÑæÊæßæá äÞá ÇáãáÝÇÊ" />
+					<item id="|.SOFTP19|" type="string" value="ÍãÇíÉ" />
+					<item id="|.SOFTP20|" type="string" value="Þã ÈÑÝÚ ÇÓã ÇáãáÝ ÇáãÄÞÊ Ëã ÃÚÏ ÊÓãíÊå" />
+					<item id="|.SOFTP21|" type="string" value="Ftp ÇÚÏÇÏÊ" />
+					<item id="|.SOFTP22|" type="string" value="(ÚäÏãÇ íßæä ÇáÝÇÕá ÇáÒãäí ÃßËÑ ãä ÓÊíä ËÇäíÉ ÝÇäå áÇ íæÕì ÈÇÓÊÎÏÇã ÇáÇãÑ (ÇáÈÞÇÁ ãÊÕáÇò)" />
+					<item id="|.SOFTP23|" type="string" value="åá ÊÑíÏ ÊÚØíá åÐÇ ÇáÎíÇÑ¿" />
+				</Ftp>
+				<Http>
+					<item id="|.SOHTTP0|" type="string" value="Http ÚäæÇä" /> <!-- name in menu and heading -->
+					<item id="|.SOHTTP1|" type="string" value="ÇáÚäæÇä Óíßæä" />
+					<item id="|.SOHTTP2|" type="string" value="Ãæ" />
+					<item id="|.SOHTTP3|" type="string" value="áÊÛííÑ ãÙåÑ ÇáÕÝÍÇÊ@xãä Çáããßä ÊÚÏíá ãáÝÇÊ ÇáåÊãá Ýí " />
+				</Http>
+				<Stream>
+					<item id="|.SOSTR0|" type="string" value="ÇáÈË" /> <!-- name in menu and heading -->
+					<item id="|.SOSTR1|" type="string" value="ÇÊÕÇá ÇáãäÝÐ" />
+					<item id="|.SOSTR2|" type="string" value="ÈíÇäÇÊ ÇáãäÝÐ" />
+					<item id="|.SOSTR3|" type="string" value="ÇáÚäæÇä" />
+					<item id="|.SOSTR4|" type="string" value="ãÊÞÏã" />
+					<item id="|.SOSTR5|" type="string" value="ÇÓÊÎÏÇã ÇáÂí Èí ÇáÚÇã:" />
+					<item id="|.SOSTR6|" type="string" value="Óíßæä ÇáÚäæÇä ßÇáÊÇáí" />
+					<item id="|.SOSTR7|" type="string" value="ãáÇÍÙÉ: åÐå ÇáÊÚÏíáÇÊ áä ÊÚãá Úáì ÇáÇäÊÑäÊ/ ÇäÙÑ Çáì ÇáÇÓÆáÉ ÇáÔÇÆÚÉ" />
+					<item id="|.SOSTR8|" type="string" value="ÍÌã ÇáÇÏÇÉ" />
+					<item id="|.SOSTR9|" type="string" value="ÍÌã ÇáÕæÑÉ ÇáÍÞíÞí" />
+					<item id="|.SOSTR10|" type="string" value="ÇáÍÕæá Úáíå" />
+					<item id="|.SOSTR11|" type="string" value="ÇáÍÏ ÇáÃÚáì ááÇÊÕÇáÇÊ" />
+					<item id="|.SOSTR12|" type="string" value="ÍÏ ÇáÈíÇäÇÊ" />
+					<item id="|.SOSTR13|" type="string" value="ÍÏ ÇáæÞÊ" />
+					<item id="|.SOSTR14|" type="string" value="ãÚÏá ÚÑÖ ÇáÕæÑ:" />
+					<item id="|.SOSTR15|" type="string" value="ãÚÏá ÚÑÖ ÇáÕæÑ ÇáãÑÊÝÚ íÓÊäÝÐ ØÇÞÉ ÃßËÑ ãä ÇáãÚÇáÌ" />
+					<item id="|.SOSTR16|" type="string" value="ÚÑÖ ÕæÊ ÊäÈíåí ÚäÏ ÇÊÕÇá Ãí ÔÎÕ" />
+					<item id="|.SOSTR17|" type="string" value="ÚÑÖ ÇáãÚáæãÇÊ ÚäÏ ÇÊÕÇá Ãí ÔÎÕ" />
+					<item id="|.SOSTR18|" type="string" value="äæÚíÉ ÇáÈË" />
+					<item id="|.SOSTR19|" type="string" value="ÊäÓíÞ Úáì" />
+					<Page_Designer>
+						<item id="|.SOSTRPD0|" type="string" value="ãÕãã ÇáÕÝÍÉ" />
+						<item id="|.SOSTRPD1|" type="string" value="ÇáÚäæÇä:" />
+						<item id="|.SOSTRPD2|" type="string" value="ÚäæÇä" />
+						<item id="|.SOSTRPD3|" type="string" value="áæä ÇáÍÏæÏ:" />
+						<item id="|.SOSTRPD4|" type="string" value="áæä ÇáÎáÝíÉ" />
+						<item id="|.SOSTRPD5|" type="string" value="ÕæÑÉ ÇáÎáÝíÉ:" />
+						<item id="|.SOSTRPD6|" type="string" value="áæä ÇáäÕ:" />
+						<item id="|.SOSTRPD7|" type="string" value="ÍÌã ÇáäÕ:" />
+						<item id="|.SOSTRPD8|" type="string" value="Page text:" />
+						<item id="|.SOSTRPD9|" type="string" value="áæä ÇáÑÇÈØ:" />
+						<item id="|.SOSTRPD10|" type="string" value="ÑÇÈØ ÊãÊ ÒíÇÑÊå" />
+						<item id="|.SOSTRPD11|" type="string" value="ÑÇÈØ ÝÚÇá" />
+						<!-- Dialogs -->
+						<item id="|.SOSTRPDDIA0|" type="string" value="áÇíÞÚ åÐÇ ÇáãáÝ Ýí ãÓÇÑ ÎÇÏã ÇáæíÈ" />
+						<item id="|.SOSTRPDDIA1|" type="string" value="åá ÊÑíÏ äÓÎ ÇáãáÝ Çáì ÇáãæÞÚ ÇáÕÍíÍ¿" />
+						<item id="|.SOSTRPDDIA2|" type="string" value="äÓÎ ÇáãáÝ¿" />
+						<item id="|.SOSTRPDDIA3|" type="string" value="ÇáãáÝ ãæÌæÏ ÇÕáÇð" />
+						<item id="|.SOSTRPDDIA4|" type="string" value="åá ÊÑíÏ ÇáßÊÇÈÉ Úáíå¿" />
+						<item id="|.SOSTRPDDIA5|" type="string" value="ÇáßÊÇÈÉ Úáíå¿" />
+						<item id="|.SOSTRPDDIA6|" type="string" value="áÇíãßä äÓÎ ÇáãáÝ" />
+						<item id="|.SOSTRPDDIA7|" type="string" value="íÌÈ ÊÝÚíá ÚãáíÉ ÇáÈË áßí ÊÙåÑ ÇáãÚÇíäÉ" />
+						<item id="|.SOSTRPDDIA8|" type="string" value="åá ÊÑíÏ ÊÝÚíáÉ ÇáÇä¿" />
+						<item id="|.SOSTRPDDIA9|" type="string" value="Êãßíä ÇáÈË¿" />
+					</Page_Designer>	
+				</Stream>
+			</Output>
+			<Text_Overlay>
+				<item id="|.SOVER0|" type="string" value="æÇÌåÉ" /> <!-- name in menu (not used since v.0.2.7) -->
+				<item id="|.SOVER0a|" type="string" value="æÇÌåÉ" /> <!-- name of folder in menu -->
+				<item id="|.SOVER0b|" type="string" value="äÕ" /> <!-- name in menu -->
+				<item id="|.SOVER0c|" type="string" value="æÇÌåÉ ÇáäÕ" /> <!-- name in settings panel -->
+				<item id="|.SOVER1|" type="string" value="ÇáãæÞÚ" />
+				<item id="|.SOVER2|" type="string" value="Çááæä" />
+				<item id="|.SOVER3|" type="string" value="äæÚ ÇáÎØ" />
+				<item id="|.SOVER4|" type="string" value="ÇáäæÚ" />
+				<item id="|.SOVER5|" type="string" value="ÇáÍÌã" />
+				<item id="|.SOVER6|" type="string" value="äÕ" /> <!-- displayed on the tabs -->
+				<item id="|.SOVER7|" type="string" value="ÇáÓäÉ/ ÃÑÈÚ ÎÇäÇÊ" />
+				<item id="|.SOVER8|" type="string" value="ÇáÓäÉ/ ÎÇäÊíä" />
+				<item id="|.SOVER9|" type="string" value="ÇáÔåÑ" />
+				<item id="|.SOVER10|" type="string" value="Çáíæã" />
+				<item id="|.SOVER11|" type="string" value="ÇáÓÇÚÇÊ" />
+				<item id="|.SOVER12|" type="string" value="ÇáÏÞÇÆÞ" />
+				<item id="|.SOVER13|" type="string" value="ÇáËæÇäí" />
+				<item id="|.SOVER13b|" type="string" value="ÚÏÏ ÇáãÔÇåÏíä" />
+				<!-- position, vertical -->
+				<item id="|.SOVER14|" type="string" value="ÇáÇÚáì" />
+				<item id="|.SOVER15|" type="string" value="ÇáæÓØ" />
+				<item id="|.SOVER16|" type="string" value="ÇáÇÓÝá" />
+				<!-- position, horizontal -->
+				<item id="|.SOVER17|" type="string" value="ÇáíÓÇÑ" />
+				<item id="|.SOVER18|" type="string" value="ÇáæÓØ" />
+				<item id="|.SOVER19|" type="string" value="Çáíãíä" />
+				<!-- colors -->
+				<item id="|.SOVER20|" type="string" value="ÇÍãÑ" />
+				<item id="|.SOVER21|" type="string" value="ÇÎÖÑ" />
+				<item id="|.SOVER22|" type="string" value="ÇÒÑÞ" />
+				<item id="|.SOVER23|" type="string" value="ÇÕÝÑ" />
+				<item id="|.SOVER24|" type="string" value="ÇÈíÖ" />
+				<item id="|.SOVER25|" type="string" value="ÇÓæÏ" />
+				<item id="|.SOVER26|" type="string" value="ÑÕÇÕí" />
+				<item id="|.SOVER27|" type="string" value="ÓãÇæí" />
+				<!-- font type -->
+				<item id="|.SOVER28|" type="string" value="ÚÇÏí" />
+				<item id="|.SOVER29|" type="string" value="ãÇÆá" />
+				<item id="|.SOVER30|" type="string" value="ÚÑíÖ" />
+				<item id="|.SOVER31|" type="string" value="Ô" /> <!-- First letter of the translation of "transparent" -->
+				<item id="|.SOVER32|" type="string" value="ÇÓÊÎÏã ÇáÎáÝíÉ" />
+				<!-- buttons -->
+				<item id="|.SOVER33|" type="string" value="ãÚÇíäÉ" />
+				<item id="|.SOVER34|" type="string" value="ãÚáæãÇÊ" />
+				<!-- more stuff -->
+				<item id="|.SOVER40|" type="string" value="ÇáÓÇÚÇÊ/ äÙÇã 12 ÓÇÚÉ" />
+				<item id="|.SOVER41|" type="string" value="íßÊÈ ÇáÔåÑ ÈÇááÛÉ ÇáÇäÌáíÒíÉ" />
+				<item id="|.SOVER42|" type="string" value="íßÊÈ Çáíæã ÈÇááÛÉ ÇáÇäÌáíÒíÉ" />
+				<item id="|.SOVER43|" type="string" value="íãßä ÇÓÊÎÏÇã ÇáãÊÛíÑÇÊ Ýí ÇáäÕ ÇáÐí ÓíÊã ÇÓÊÈÏÇáå ÈÞíã ÝÚÇáÉ" />
+				<item id="|.SOVER44|" type="string" value="ÇáãÊÛíÑÇÊ ÇáÊÇáíÉ ãÊæÝÑÉ" />
+				<item id="|.SOVER45|" type="string" value=" (@x)íßÊÈ ÇáÔåÑ ÈÇááÛÉ ÇáÝÚÇáÉ" />
+				<item id="|.SOVER46|" type="string" value=" (@x)íßÊÈ Çáíæã ÈÇááÛÉ ÇáÝÚÇáÉ" />
+				<!-- local calendar names -->				
+				<item id="|.SOVERDAY1|" type="string" value="ÇáÇËäíä" />
+				<item id="|.SOVERDAY2|" type="string" value="ÇáËáÇËÇÁ" />
+				<item id="|.SOVERDAY3|" type="string" value="ÇáÇÑÈÚÇÁ" />
+				<item id="|.SOVERDAY4|" type="string" value="ÇáÎãíÓ" />
+				<item id="|.SOVERDAY5|" type="string" value="ÇáÌãÚÉ" />
+				<item id="|.SOVERDAY6|" type="string" value="ÇáÓÈÊ" />
+				<item id="|.SOVERDAY7|" type="string" value="ÇáÇÍÏ" />
+				<item id="|.SOVERMON1|" type="string" value="íäÇíÑ" />
+				<item id="|.SOVERMON2|" type="string" value="ÝÈÑÇíÑ" />
+				<item id="|.SOVERMON3|" type="string" value="ãÇÑÓ" />
+				<item id="|.SOVERMON4|" type="string" value="ÇÈÑíá" />
+				<item id="|.SOVERMON5|" type="string" value="ãÇíæ" />
+				<item id="|.SOVERMON6|" type="string" value="íæäíæ" />
+				<item id="|.SOVERMON7|" type="string" value="íæáíæ" />
+				<item id="|.SOVERMON8|" type="string" value="ÇÛÓØÓ" />
+				<item id="|.SOVERMON9|" type="string" value="ÓÈÊãÈÑ" />
+				<item id="|.SOVERMON10|" type="string" value="ÇßÊæÈÑ" />
+				<item id="|.SOVERMON11|" type="string" value="äæÝãÈÑ" />
+				<item id="|.SOVERMON12|" type="string" value="ÏíÓãÈÑ" />
+			</Text_Overlay>
+			<Image_Overlay>
+				<item id="|.SIOVER0a|" type="string" value="ÕæÑÉ" /> <!-- name in menu -->
+				<item id="|.SIOVER0b|" type="string" value="ÛØÇÁ ÇáÕæÑÉ" /> <!-- name in settings panel -->
+				<item id="|.SIOVER1|" type="string" value="ÕæÑÉ" /> <!-- text on tabs -->
+				<item id="|.SIOVER2|" type="string" value="ÊÛííÑ..." />
+				<item id="|.SIOVER3|" type="string" value="ÇÒÇáÉ" />
+				<item id="|.SIOVER4|" type="string" value="ÇáÔÝÇÝíÉ:" />	
+			</Image_Overlay>
+			<Startup>
+				<item id="|.SSTRT0|" type="string" value="ÈÏÁ ÇáÊÔÛíá" /> <!-- name in menu and heading -->
+				<item id="|.SSTRT1|" type="string" value="íãßäß åäÇ ÊÛííÑ ãÇíÊã Úãáå ÚäÏ ÊÔÛíá ÇáÈÑäÇãÌ" />
+				<item id="|.SSTRT2|" type="string" value="ÈÏÁ ÇÑÓÇá ÇáãáÝ" />
+				<item id="|.SSTRT3|" type="string" value=" FTP ÈÏÁ ÈÑæÊæßæá äÞá ÇáãáÝÇÊ" />
+				<item id="|.SSTRT4|" type="string" value=" HTTP ÈÏÁ ÈÑæÊæßæá äÞá ÇáäÕ" />
+				<item id="|.SSTRT5|" type="string" value="ÇÙåÇÑ ÇáãÚÇíäÉ" />
+				<item id="|.SSTRT6|" type="string" value="ÇÙåÇÑ ÇáæÇÌåÉ" />
+				<item id="|.SSTRT7|" type="string" value="ÇÙåÇÑ ÇáÇÍÕÇÆíÇÊ" />
+				<item id="|.SSTRT8|" type="string" value="ÇÎÝÇÁ Ýí ÔÑíØ ÇáãåÇã ÚäÏ ÇáÈÏÁ" />
+				<item id="|.SSTRT9|" type="string" value="ÇÙåÇÑ ÔÇÔÉ ÇáÊÍãíá" />
+				<item id="|.SSTRT10|" type="string" value="ÇÈÏÃ ÇáÈË" />
+				<item id="|.SSTRT11|" type="string" value="ÇÙåÇÑ ÇáãÔÇåÏíä" />
+				<item id="|.SSTRT12|" type="string" value="ÇáÊÍÞÞ ãä æÌæÏ äÓÎ ÍÏíËÉ" />
+				<item id="|.SSTRT13|" type="string" value="ÍÝÙ ÓÌá ÇáãáÝ" />
+				<item id="|.SSTRT14|" type="string" value="ÊÔÛíá ãÓÊÔÚÑ ÇáÍÑßÉ" />
+				<item id="|.SSTRT15|" type="string" value="Êãßíä ãÑÇÞÈ ÇáÇÎØÇÁ" />
+			</Startup>
+			<Offline_Image>
+				<item id="|.SOFFIMG0|" type="string" value="ÇáÕæÑÉ ÇËäÇÁ ÚÏã ÇáÇÊÕÇá" />
+				<item id="|.SOFFIMG1|" type="string" value="ÍÝÙ ÕæÑÉ Ýí æÖÚ ÚÏã ÇáÇÊÕÇá ÚäÏ ÊÓÌíá ÇáÎÑæÌ Ýí" />
+				<item id="|.SOFFIMG2|" type="string" value="ÇáÕæÑÉ ÇáãÎÊÇÑÉ" />
+				<item id="|.SOFFIMG3|" type="string" value="ÍÝÙ ÇíÖÇð ÚäÏ ÇáÎÑæÌ ãä ÇáÈÑäÇãÌ/ íÓÈÈ ÈØìÁ Ýí ÚãáíÉ ÇáÎÑæÌ" />
+				<item id="|.SOFFIMG4|" type="string" value="ÇÎÊíÇÑ ÇáÕæÑÉ" />
+			</Offline_Image>
+			<Password>
+				<item id="|.SPASS0|" type="string" value="ßáãÉ ÇáãÑæÑ" />
+				<item id="|.SPASS1|" type="string" value="ÇÓÊÎÏã ßáãÉ ÇáãÑæÑ Ýí ÍÇáÉ ÇáÈË" />
+				<item id="|.SPASS2|" type="string" value="ÊÃßíÏ..." />
+				<item id="|.SPASS3|" type="string" value="ÊÍÐíÑ: ÓíÊã ÍÐÝ ÌãíÚ ßáãÇÊ ÇáãÑæÑ" />
+				<item id="|.SPASS4|" type="string" value="åá ÊÑíÏ ÇáÇÓÊãÑÇÑ¿" />
+				<item id="|.SPASS5|" type="string" value="@x ÓíÊã ÍÐÝ ßáãÉ ÇáãÑæÑ ÇáÎÇÕÉ ÈÜ" />
+				<item id="|.SPASS6|" type="string" value="áã íÊã ÇÎÊíÇÑ ãÓÊÎÏã" />
+				<item id="|.SPASS7|" type="string" value="ãÑÉ ÇÎÑì @x ÇÎÊÑ ãÓÊÎÏã Ëã ÇÖÛØ Úáì" />
+				<item id="|.SPASS8|" type="string" value="áÇíãßä ÇáÞíÇã ÈÐáß" />
+				<item id="|.SPASS9|" type="string" value="ãÍÇæáÉ ÏÎæá ÎÇØÆÉ" />
+				<item id="|.SPASS10|" type="string" value="ÇÖÇÝÉ ãÓÊÎÏã/ ßáãÉ ãÑæÑ" />
+				<item id="|.SPASS11|" type="string" value="ÇÓã ãÓÊÎÏã" />
+				<item id="|.SPASS12|" type="string" value="ßáãÉ ãÑæÑ" />
+				<item id="|.SPASS13|" type="string" value="ÊÃßíÏ ßáãÉ ÇáãÑæÑ" />
+				<item id="|.SPASS14|" type="string" value="áÞÏ ÞãÊ ÇáÇä ÈÊÝÚíá ßáãÉ ÇáãÑæÑ ÇáÎÇÕÉ ÈÇáÊäÈíåÇÊ æÃÏÇÉ ÇáÈË" />
+				<item id="|.SPASS15|" type="string" value="áíÓ åÐÇ ãÇ ÊÑíÏå Úáì ÇáÃÑÌÍ" />
+				<item id="|.SPASS16|" type="string" value="åá ÊÑíÏ ÇáÇÓÊãÑÇÑ Úáì ÇíÉ ÍÇá¿" />
+				<item id="|.SPASS17|" type="string" value="åá ÇäÊ ãÊÃßÏ¿" />
+			</Password>
+			<Announcements>
+				<item id="|.SANN0|" type="string" value="ÊäÈíåÇÊ" /> <!-- name in menu and heading -->
+				<item id="|.SANN1|" type="string" value=" Êãßäß åÐå ÇáÞÇÆãÉ ãä Úãá ÊäÈíå íãßä ÇÑÓÇáå Çáì ãÌÊãÚÇÊ ÇáæíÈ ßÇã ÚäÏãÇ Êßæä ãÊÕáÇð" />
+				<item id="|.SANN2|" type="string" value="ÊäÈíå Ýí æÖÚ ÇáÇÊÕÇá" />
+				<item id="|.SANN3|" type="string" value="ÊäÈíå Ýí æÖÚíÉ ÚÏã ÇáÇÊÕÇá" />
+				<item id="|.SANN4|" type="string" value="Þã ÈÇÑÓÇá ÊäÈíå Ýí æÖÚ ÇáÇÊÕÇá/ ÚÏã ÇááÇÊÕÇá ÚäÏãÇ" />
+				<item id="|.SANN5|" type="string" value="ãÚÇíäÉ" />
+				<item id="|.SANN6|" type="string" value="ãÚáæãÇÊ" />
+				<item id="|.SANN7|" type="string" value="ÊäÈíåÇÊ" />
+				<item id="|.SANN8|" type="string" value="ãÊÕá" />
+				<item id="|.SANN9|" type="string" value="ÛíÑ ãÊÕá" />
+				<item id="|.SANN10|" type="string" value="http  ÊÍÊæí ÇáÊäÈíåÇÊ ÚÇÏÉ Úáì ØáÈÇÊ" />
+				<item id="|.SANN11|" type="string" value="ÓíÞæã ãÌÊãÚ ÇáæíÈ ßÇã ÇáÎÇÕ Èß ÈÊÒæíÏß ÈãÚáæãÇÊ Úä ßíÝíÉ ÙåæÑ ÓáÓáÉ ÊäÈíåÇÊß" />
+				<item id="|.SANN12|" type="string" value="íãßäß ÇÓÊÎÏÇã ÈÚÖ ÇáãÊÛíÑÇÊ ÚäÏ ÇäÔÇÁß ÓáÓáÉ ÇáÊäÈíåÇÊ ÇáÎÇÕÉ Èß" />
+				<item id="|.SANN13|" type="string" value="(http)ÚäæÇä íæ ÇÑ Çá Çáì ÇáÎÇÏã ÇáãÏãÌ Ýí ÈÑäÇãÌ íÇæßÇã " />
+				<item id="|.SANN14|" type="string" value="(stream)ÚäæÇä íæ ÇÑ Çá Çáì ÇÏÇÉ ÇáÈË Ýí ÇáÈÑäÇãÌ " />
+				<item id="|.SANN15|" type="string" value="ÊÍÐíÑ" />
+				<item id="|.SANN16|" type="string" value="áÇíãßä ÇÑÓÇá ÊäÈíå Ýí æÖÚ ÇáÇÊÕÇá" />
+				<item id="|.SANN17|" type="string" value="áÇíãßä ÇÑÓÇá ÊäÈíå Ýí æÖÚíÉ ÚÏã ÇáÇÊÕÇá" />
+				<item id="|.SANN18|" type="string" value="ÇáÑÌÇÁ ÇáÊÍÞÞ ãä ÇáÇÚÏÇÏÇÊ" />
+			</Announcements>
+			<Scheduler>
+				<item id="|.SSCHED0|" type="string" value="ÌÏæáÉ" /> <!-- name in menu and heading -->
+				<item id="|.SSCHED1|" type="string" value="Êãßíä ÇáÌÏæáÉ" />
+				<item id="|.SSCHED2|" type="string" value="Êãßíä" />
+				<item id="|.SSCHED3|" type="string" value="ÊÚØíá" />
+			</Scheduler>
+		</Settings>
+		<Motion_Detection>
+		
+		</Motion_Detection>
+		<About>
+			<item id="|.ABW0|" type="string" value="Úä ÇáÈÑäÇãÌ" /> <!-- heading for window -->
+			<item id="|.ABW1|" type="string" value="ÊÑÌãÉ" />
+			<item id="|.ABW2|" type="string" value="ÔßÑ ÎÇÕ" />
+			<item id="|.ABW3|" type="string" value="ãæÇÝÞÉ" /> <!-- button -->
+		</About>
+		<Pass_Prompt>
+			<item id="|.PSSP0|" type="string" value="ÊÓÌíá ÇáÏÎæá" /> <!-- heading for window -->
+			<item id="|.PSSP1|" type="string" value="áã íÊãßä ÇáÈÑäÇãÌ ãä ÇáÏÎæá Ýí äÙÇã äÞá ÇáãáÝÇÊ ÈÇÓã ÇáãÓÊÎÏã æßáãÉ ÇáãÑæÑ ÇáãÚØÇÉ, ÇáÑÌÇÁ ÇÏÎÇá Þíã ÕÍíÍÉ" />
+			<item id="|.PSSP2|" type="string" value="ÇÓã ÇáãÓÊÎÏã" />
+			<item id="|.PSSP3|" type="string" value="ßáãÉ ÇáãÑæÑ" />
+			<item id="|.PSSP4|" type="string" value="(ØÑíÞÉ ÛíÑ ÂãäÉ)ÍÝÙ ßáãÉ ÇáãÑæÑ ááãÑÉ ÇáÞÇÏãÉ" />
+		</Pass_Prompt>
+		<TrayIcon_popmenu>
+			<item id="|.TIM0|" type="string" value="ÇÎÝÇÁ/ÇÙåÇÑ" />
+			<item id="|.TIM1|" type="string" value="ÏÇÆãÇ Ýí ÇáÇÚáì" />
+			<item id="|.TIM2|" type="string" value="ããßä" />
+			<item id="|.TIM3|" type="string" value="ãáÝ" />
+			<item id="|.TIM4|" type="string" value="äÙÇã äÞá ÇáãáÝÇÊ" />
+			<item id="|.TIM5|" type="string" value="Http" />
+			<item id="|.TIM6|" type="string" value="ÇáÈË" />
+			<item id="|.TIM7|" type="string" value="ÇÚÏÇÏÇÊ..." />
+			<item id="|.TIM8|" type="string" value="ãÓÇÚÏÉ..." />
+			<item id="|.TIM9|" type="string" value="ÎÑæÌ" />
+			<item id="|.TIM10|" type="string" value="ÇÓÊÔÚÇÑ ÇáÍÑßÉ" />
+			<item id="|.TIM11|" type="string" value="ÌÏæáÉ" />
+		</TrayIcon_popmenu>
+		<Viewers>
+			<item id="|.VIEWF0|" type="string" value="ÚÏÏ ÇáãÔÇåÏíä" /> <!-- label for number of viewers -->
+			<item id="|.VIEWF1|" type="string" value="ÇáÂí Èí" />
+			<item id="|.VIEWF2|" type="string" value="ÇÓã ÇáãÖíÝ" />
+			<item id="|.VIEWF3|" type="string" value="ÇáæÞÊ" />
+			<item id="|.VIEWF4|" type="string" value="ÇáßíáæÈÇíÊÇÊ ÇáãÑÓáÉ" />
+			<item id="|.VIEWF5|" type="string" value="ãÔÇåÏí ÇáÈË" /> <!-- window title -->
+			<item id="|.VIEWF6|" type="string" value="ØÑÏ" />
+			<item id="|.VIEWF7|" type="string" value="ÞÇÆãÉ ÇáãÍÙæÑíä" />
+			<item id="|.VIEWF8|" type="string" value="ÍÙÑ" />
+			<item id="|.VIEWF9a|" type="string" value="ÍÙÑ ÇáãÓÊÎÏã¿" />
+			<item id="|.VIEWF9b|" type="string" value="åá ÊÑíÏ ÈÇáÝÚá ÍÙÑ åÐÇ ÇáãÓÊÎÏã¿" />
+			<item id="|.VIEWF10|" type="string" value="ÇáÛÇÁ ÇáÍÙÑ" />
+			<item id="|.VIEWF11a|" type="string" value="ÇÖÇÝÉ Âí Èí" />
+			<item id="|.VIEWF11b|" type="string" value="ÇÏÎá ÚäæÇä ÇáÂí Èí ááÍÖÑ" />
+			<item id="|.VIEWF12|" type="string" value="ÚäÇæíä ÇáÂí Èí ÇáãÍÙæÑÉ" />
+		</Viewers>
+		<ImgToMov>
+			<item id="|.IMGTM0|" type="string" value="ÊÍæíá ÇáÕæÑ Çáì ÝíÏíæ" /> <!-- title -->
+			<item id="|.IMGTM1|" type="string" value="ÓÊÓÇÚÏß åÐå ÇáÞÇÆãÉ Ýí ÚãáíÉ ÏãÌ ÇáÕæÑ áÇÕÏÇÑ ÝíÏíæ" />
+			<item id="|.IMGTM2|" type="string" value="ÓíÊã ÊÖãíä ÇáÕæÑÉ Ýí ÇáÞÇÆãÉ ÇÏäÇå ãÚ ÇáÝíÏíæ" />
+			<item id="|.IMGTM3|" type="string" value="ÚßÓ ÇáÊÑÊíÈ" />
+			<item id="|.IMGTM4|" type="string" value="ÇÖÇÝÉ ÕæÑ" />
+			<item id="|.IMGTM5|" type="string" value="ãÚÏá ÇáÇØÇÑ:" />
+			<item id="|.IMGTM6|" type="string" value="ãÚÏá ÇáÇØÇÑ" /> <!-- fps (frames per second) -->
+			<item id="|.IMGTM7|" type="string" value="ãáÝ ÇáÝíÏíæ" />
+			<item id="|.IMGTM8|" type="string" value="ÇäÔÇÁ ÇáÝíÏíæ" />
+			<item id="|.IMGTM9|" type="string" value="íÌÈ ÇÎÊíÇÑ ÚäÕÑ ãä ÇáÞÇÆãÉ" />
+			<item id="|.IMGTM10|" type="string" value="íÌÈ ÇÖÇÝÉ ÕæÑ Çáì ÇáÞÇÆãÉ" />
+			<item id="|.IMGTM11a|" type="string" value="íÌÈ ÇÏÎÇá ÚÏÏ ÕÍíÍ áãÚÏá ÇáÅØÇÑÇÊ" />
+			<item id="|.IMGTM11b|" type="string" value="ãä 1_ 90 åí ÇÑÞÇã ÕÍíÍÉ" />
+			<item id="|.IMGTM12|" type="string" value="íÌÈ ÇÎÊíÇÑ ÇÓã ááÝíÏíæ" />
+			<item id="|.IMGTM13|" type="string" value="ÇäÔÇÁ ÇáÝíÏíæ" />
+			<item id="|.IMGTM14|" type="string" value="ÇÖÇÝÉ ÇáÕæÑ" />
+			<item id="|.IMGTM15|" type="string" value="íãßäß åäÇ ÇíÌÇÏ ÇáÝíÏíæ" />
+			<item id="|.IMGTM16|" type="string" value="ÇäÊåì" />
+			<item id="|.IMGTM17|" type="string" value="ÇäÔÇÁ ÇáÝíÏíæ" />			
+			<item id="|.IMGTM18|" type="string" value="ÇáÊÍÞÞ ãä ÇáÕæÑ" />
+		</ImgToMov>
+		<Popup_Errors>
+			<item id="|.POPER0|" type="string" value="ÎØÃ" /> <!-- heading for all error popups -->
+			<item id="|.POPER1a|" type="string" value="ÇÓã ãÖíÝ ÛíÑ ãÚÑæÝ" />
+			<item id="|.POPER1b|" type="string" value="íÑÌì ÇáÊÍÞÞ ãä ÚäæÇä äÙÇã äÞá ÇáãáÝÇÊ Ýí ÇáÇÚÏÇÏÇÊ" />
+			<item id="|.POPER2a|" type="string" value="Êã ÑÝÖ ÇáÇÊÕÇá" />
+			<item id="|.POPER2b|" type="string" value="íÑÌì ÇáÊÍÞÞ ãä ÇÚÏÇÏÇÊ äÙÇã äÞá ÇáãáÝÇÊ" />
+			<item id="|.POPER3a|" type="string" value="Êã ÑÝÖ ÇáÇÐä" />
+			<item id="|.POPER3b|" type="string" value="íÑÌì ÇáÊÍÞÞ ãä æÌæÏ ÇÐä áÑÝÚ ÇáãáÝÇÊ Úáì ÇáÎÇÏã ÇáÎÇÕ ÈäÙÇã äÞá ÇáãáÝÇÊ" />
+			<item id="|.POPER4|" type="string" value="ÛíÑ ÕÇáÍ xml ãáÝ" />
+			<item id="|.POPER5|" type="string" value="áÇ íãßä ÇíÌÇÏ ÇáãáÝ" />
+			<!-- input errors -->
+			<item id="|.POPER6|" type="string" value="ÇáÑÌÇÁ ÊÛííÑ" />
+			<item id="|.POPER7a|" type="string" value="ÞíãÉ ÛíÑ ÕÍíÍÉ ááÝÊÑÉ ÇáÝÇÕáÉ Èíä ÇáÕæÑ" />
+			<item id="|.POPER7b|" type="string" value="ÇáÍÞá áÇíãßä Ãä íÍÊæí ÇáÇ ÚÏÏ ãËá 10 Çæ 300" />
+			<item id="|.POPER8a|" type="string" value="ÑÞã ãäÝÐ ÛíÑ ÕÍíÍ" />
+			<item id="|.POPER8b|" type="string" value="ÇáÍÞá áÇíãßä Çä íÍÊæí ÇáÇ ÇÚÏÇÏ ãËá 21" />
+			<item id="|.POPER9|" type="string" value="ÇáÍÞá áÇíãßä Ãä íÎÊæí ÇáÇ ÇÚÏÇÏ ãËá 8888" />
+			<item id="|.POPER10|" type="string" value="ÞíÏ ÇáÇÓÊÎÏÇã @x ãäÝÐ" />
+			<item id="|.POPER11|" type="string" value="ÇáÑÌÇÁ ÇÎÊíÇÑ ãäÝÐ ÇÎÑ" />
+			<item id="|.POPER12a|" type="string" value="åÐÇ ÇáãÓÇÑ ÛíÑ ãæÌæÏ" />
+			<item id="|.POPER12b|" type="string" value="ÇáÑÌÇÁ ÇáÊÃßÏ ãä ÊæÝÑ ãÌáÏ ÇáÍÝÙ ÇáÎÇÕ ÈÇáÇÝ Êí Èí Ýí ÇáÇÚÏÇÏÊ ÇáÎÇÕÉ ÈÇáÇÝ Êí Èí" />
+			<!-- misc -->
+			<item id="|.POPERLANG0|" type="string" value="ÚÝæÇ" />
+			<item id="|.POPERLANG1|" type="string" value="áÇÊÍæí åÐå ÇáäÓÎÉ Úáì Ãí ãáÝÇÊ ãÓÇÚÏÉ" />
+			<item id="|.POPERLANG2|" type="string" value=" www.yawcam.com ÇáÑÌÇÁ ÒíÇÑÉ ÇáãæÞÚ ááÍÕæá Úáì ÇáÊÍÏíËÇÊ" />
+			<!-- camera errors -->
+			<item id="|.POPERCAM0|" type="string" value="áÇíãßä ááÈÑäÇãÌ ÇáÇÊÕÇá ÈÇáßÇãíÑÇ" />
+			<item id="|.POPERCAM1|" type="string" value="ÇáÑÌÇÁ ÇáÊÃßÏ ãä ÚÏã ÇÓÊÎÏÇãå ãä ÞÈá ÈÑäÇãÌ ÇÎÑ Çæ ÇÎÊÑ ÛíÑå" />
+			<item id="|.POPERCAM2|" type="string" value="@z Ýí ÞÇÆãÉ @y Ëã x@ ÇÐÇ ßÇäÊ ÞÇÆãÉ ÇáßãíÑÇ ÎÇáíÉ ÇáÑÌÇÁ ÇáÖÛØ Úáì" />
+			<!-- File-output errors -->
+			<item id="|.POPERFILE0|" type="string" value="áÇíãßä ÍÝÙ ÇáãáÝ: @x" />
+			<item id="|.POPERFILE1|" type="string" value="ÇáÑÌÇÁ ÇáÊÃßÏ ãä æÌæÏ ÇáãÓÇÑ Ãæ ÊÛííÑ ÇáÇÚÏÇÏÇÊ Ýí ÍÇá ÚÏã æÌæÏå" />
+			<!-- More Ftp-output errors -->
+			<item id="|.POPERFTP0|" type="string" value="áÇíãßä ÍÝÙ ÇáãáÝ ÇáãÄÞÊ" />
+			<item id="|.POPERFTP1|" type="string" value="ÇÐÇ áã íßä ãæÌæÏ ÇáÑÌÇÁ ÇäÔÇÁå x@ ÇáÑÌÇÁ ÇáÊÃßÏ ãä æÌæÏ ãÌáÏ ÇáÍÝÙ" />
+			<!-- add password error -->
+			<item id="|.POPERPASADD0|" type="string" value="íÌÈ ÇÏÎÇá ÇÓã ãÓÊÎÏã" />
+			<item id="|.POPERPASADD1|" type="string" value="ßáãÇÊ ÇáãÑæÑ ÛíÑ ãÊæÇÝÞÉ" />
+			<item id="|.POPERPASADD2|" type="string" value="ÇáÑÌÇÁ ÇáãÍÇæáÉ ãÑÉ ÇÎÑì" />
+			<item id="|.POPERPASADD3|" type="string" value="íÌÈ ãáÆ ÝÑÇÛ ßáãÉ ÇáãÑæÑ" />
+			<!-- stream -->
+			<item id="|.POPERSTRM0|" type="string" value="ÝÔá Ýí ÇáßÔÝ Úä ÚäæÇä ÇáÂí Èí ÇáÚÇã" />
+			<item id="|.POPERSTRM1|" type="string" value="áÇíßÊÈ Ýí ÇáÎÇäÇÊ ÇáÇ ÇÚÏÇÏ ÕÍíÍÉ" />
+		</Popup_Errors>
+	</GUI>
+	<Console>
+		<item id="|.CNSPR0|" type="string" value="ÈÏÃ ÇáÈÑäÇãÌ" />
+		<item id="|.CNSPR1|" type="string" value="Êã ÊÍãíá ÇáÇÚÏÇÏÇÊ" />
+		<item id="|.CNSPR2|" type="string" value="Êã ÍÝÙ ÇáÇÚÏÇÏÇÊ" />
+		<item id="|.CNSPR3|" type="string" value="ÈÏÃ ÇáÈË" />
+		<item id="|.CNSPR4|" type="string" value="Êã ÊæÞíÝ ÇáÈË" />
+		<item id="|.CNSPR5|" type="string" value="ÈÏÁ ÈÑæÊæßæá ÇáÇÝ Êí Èí" />
+		<item id="|.CNSPR6|" type="string" value="Êã ÇíÞÇÝ ÈÑæÊæßæá ÇáÇÝ Êí Èí" />
+		<item id="|.CNSPR7|" type="string" value="ÈÏÁ ÈÑæÊæßæá ÇáÇÊÔ Êí Êí Èí" />
+		<item id="|.CNSPR8|" type="string" value="Êã ÇíÞÇÝ ÈÑæÊæßæá ÇáÇÊÔ  Êí Êí Èí" />
+		<item id="|.CNSPR9|" type="string" value="@x: ÕíÛÉ ÇáÕæÑÉ" />
+		<item id="|.CNSPR10|" type="string" value="@x: ÇÓÊÎÏã ÇáÌåÇÒ" />
+		<item id="|.CNSPR11|" type="string" value="@x: ÇááÛÉ" />
+		<item id="|.CNSPR12|" type="string" value="Êã ÇÎÝÇÁ ÇáÈÑäÇãÌ" />
+		<item id="|.CNSPR13|" type="string" value="Êã ÇÙåÇÑ ÇáÈÑäÇãÌ" />
+		<item id="|.CNSPR14|" type="string" value="ÇáÈÍË Úä ßÇãíÑÇ æíÈ..." />
+		<item id="|.CNSPR15|" type="string" value="ÔßÑÇ" />
+		<item id="|.CNSPR16|" type="string" value="Êã ÍÝÙ ÇáãáÝ" />
+		<item id="|.CNSPR17|" type="string" value="ÈÏÁ ÇáÈË" />
+		<item id="|.CNSPR18|" type="string" value="Êã ÇíÞÇÝ ÇáÈË" />
+		<item id="|.CNSPR19|" type="string" value="íÞÚ ãáÝ ÇáãÓÇÚÏÉ Ýí www." />
+		<item id="|.CNSPR20|" type="string" value="ÞíÏ ÇáÇÓÊÎÏÇã @x ÇáãäÝÐ" />
+		<item id="|.CNSPR21|" type="string" value="áÇíãßä ÇáÇÊÕÇá ÈÎÇÏã äÙÇã äÞá ÇáãáÝÇÊ" />
+		<item id="|.CNSPR22|" type="string" value="ÇÝ Êí Èí: Êã ÇíÞÇÝ ÇáÇÊÕÇá áÚÏã æÌæÏ äÞá ÈíÇäÇÊ. äæÕí ÈÚÏã ÇÓÊÎÏÇã ÇáÎíÇÑ/ ÇáÈÞÇÁ ãÊÕáÇð" />
+		<item id="|.CNSPR23|" type="string" value="ÓíÊã ÇáÇä ÑÝÚ ÇáÕæÑÉ Ýí ÌãíÚ ÇáÇÍæÇá" />		 
+	</Console>
+</yawcam_lang>
