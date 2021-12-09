@@ -1,1 +1,0 @@
-echo %USERPROFILE% > service_profile.cfg
